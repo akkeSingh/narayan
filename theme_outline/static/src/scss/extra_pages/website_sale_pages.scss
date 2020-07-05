@@ -1,0 +1,199 @@
+.th_address_page{
+    &>.row{
+        margin-top: 35px !important;
+        &>.order-xl-2{
+            position: sticky;
+            top: 50px;
+        }
+    }
+    .o_page_header{
+        border-bottom-color: transparent;
+    }
+}
+// ........cart pages 
+.th_cart_page{
+    padding: 0px;
+    .oe_cart{
+        margin-top: 30px;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    #cart_total{
+        width: 50%;
+        padding: 0 15px;
+        display: inline-block;
+        .coupon_form{
+            display: inline-block;
+            width:100%;
+            .a-submit{
+                padding: 4px 12px;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+    @include media-breakpoint-down(sm){
+        #cart_total{
+            width: 100%;
+        }
+    }
+}
+table.js_cart_lines .td-img{
+    text-align: left;
+    img{
+        max-height: 100px;
+        background:  linear-gradient(45deg, rgba(237,237,237,1) 0%, rgba(244,244,244,1) 50%, rgba(246,246,246,1) 61%, rgba(255,255,255,1) 100%);
+    }
+}
+table#cart_products td:first-child, table#cart_products th:first-child{
+    max-width: 125px;
+    width: 150px;
+    padding-left: 0 !important;
+}
+table#cart_products .td-product_name{
+    max-width: 400px;
+}
+// ..............................................................
+.th_checkout_page{
+    &>.row{margin-top: 35px !important;}
+    .o_page_header{
+        border-bottom-color: transparent;
+    }
+}
+
+#o_comparelist_table{
+    min-width: 700px;
+}
+
+.th_contact_us{
+    .row{
+        justify-content: space-between;
+        margin-bottom: 15px;
+        margin-left: 0;
+        margin-right: 0;
+        &>.col-lg-8{
+            flex: 0 0 64.66666667%;
+        }
+        &>.col-lg-8,&>.col-lg-4{
+            @include border_design;
+            transition:  all .2s linear;
+            &:hover{
+                box-shadow: 0 2px 8px 4px rgba(0,0,0,0.07);
+            }
+        }
+        @include media-breakpoint-down(md){
+            &>.col-lg-8{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+    address {
+        address >div:first-child{
+            font-weight: 600;
+            font-size: 2.187525rem;
+            padding: 15px 0;
+        }
+
+    }
+}
+// ............payment Pages ......................
+/* Copyright (c) 2020-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) */
+/* See LICENSE file for full copyright and licensing details. */
+
+
+// Payment Pages ..................................................
+.o_payment_processing {
+    &>.row{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.th_payment_page{
+    
+    #payment_method{
+        .card{
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            padding: 0 ;
+            margin-right: -15px;
+            margin-left: -15px;
+            border: 0;
+            box-shadow:unset;
+            .card-body{
+                max-width: 50%;
+                label{
+                    display: flex;
+                    background: #F1F1F1;
+                    width: 100%;
+                    min-height: 100px;
+                    margin: 0;
+                    padding: 15px;
+                    border: 1px solid transparent;
+
+                    input{
+                        display: none;
+                    }
+                    img{
+                        margin-right: 10px;
+                        max-width: 100px;
+                        max-height: 70px;
+                        height: 70px;
+                    }
+                    &.active{
+                        background: #FFFFFF;
+                        border: 1px solid $primary;
+                    }
+                    .payment_option_name{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                    .payment_icon_list{
+                        display: flex;
+                        flex-wrap: wrap;
+                        li{
+                            padding: 2px 0;
+                            .more_option{
+                                position: static;
+                            }
+                        }
+                        img{
+                            max-height: 20px;
+                            margin-right: 0;
+
+                        }
+                    }
+                }
+            }
+            .alert-danger{
+                margin: 0 15px;
+            }
+            @include media-breakpoint-down(sm){
+                flex-direction: column;
+                .card-body{
+                    max-width: 100%;
+                }
+
+            }
+        }
+    }
+}
+#cart_total{
+    border-top: 1px solid #D8D8D8;
+    tbody{
+        tr{
+            td{
+                padding: 5px 0;
+            }
+            td:first-of-type{
+                text-align: left !important;
+            }
+            &:not(#order_total){
+                color: #777777;
+            }
+        }
+    }
+}
+// ...........................................................................

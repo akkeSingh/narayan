@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="theme_res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="20"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="Website" string="Theme Outline" data-key="theme_outline" groups="website.group_website_designer">
+                        <div class="settingSearchHeader justify-content-center pl0 mt0">
+                            <img alt="Search" class="icon" src="/theme_outline/static/description/theme_logo.png" style="width:100px;"/>
+                            <span class="appName">
+                                <b>Theme Outline</b>
+                            </span>
+                        </div>
+                        <h2>Price Filter </h2>
+                        <div class="row mt16 o_settings_container" id="theme_outline_settings">
+                            <!-- ...............Price Filter Settings............. -->
+                            <div class="col-xs-12 col-md-6 o_setting_box" id="price_filter_settings">
+                                <div class="o_setting_left_pane">
+                                    <field name="enable_price_filter" widget="checkbox"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label string="Show Price Range Filter" for="enable_price_filter"/>
+                                    <div class="text-muted">
+                                        Enable the price range filter on website
+                                    </div>
+                                    <div class="content-group" attrs="{'invisible': [('enable_price_filter', '=', False)]}">
+                                        <div class="row">
+                                            <label string="Default Min Price" for="filter_min_price_" class="col-md-4 o_light_label"/>
+                                            <field name="filter_min_price" attrs="{'required':[('enable_price_filter','=',True)]}" widget='monetary' options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+                                        </div>
+                                        <div class="row">
+                                            <label string="Default Max Price" for="filter_max_price" class="col-md-4 o_light_label"/>
+                                            <field name="filter_max_price" attrs="{'required':[('enable_price_filter','=',True)]}" widget='monetary' options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+                                        </div>
+
+                                        <div class="row">
+                                            <label string="Filter Price Step" for="filter_price_step" class="col-md-4 o_light_label"/>
+                                            <field name="filter_price_step" attrs="{'required':[('enable_price_filter','=',True)]}" widget='monetary' options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--........................................................................ -->
+                        <h2>Shop Page</h2>
+                        <div class="row mt16 o_settings_container" id="theme_outline_settings">
+                            <!--enable_product_quick_view  -->
+                            <div class="col-xs-12 col-md-6 o_setting_box" id="product_quick_view_settings">
+                                <div class="o_setting_left_pane">
+                                    <field name="enable_product_quick_view"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label string="Product Quick View" for="enable_product_quick_view"/>
+                                    <div class="text-muted">
+                                        Enable/Disable the Product Quick View button of Website Grid View Product.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_alternatives_view -->
+                            <!-- <div class="col-xs-12 col-md-6 o_setting_box" id="product_alternatives_view_settings">
+                                <div class="o_setting_left_pane">
+                                    <field name="product_alternatives_view"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label string="Product Alternatives View" for="product_alternatives_view"/>
+                                    <div class="text-muted">
+                                        Enable/Disable the Product Alternatives view button of Website Grid View Product.
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- product_accessories_view -->
+                            <!-- <div class="col-xs-12 col-md-6 o_setting_box" id="product_accessories_view_settings">
+                                <div class="o_setting_left_pane">
+                                    <field name="product_accessories_view"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label string="Product Accessories View" for="product_accessories_view"/>
+                                    <div class="text-muted">
+                                        Enable/Disable the Product Accessories view button of Website Grid View Product.
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="col-xs-12 col-md-6 o_setting_box" id="price_filter_settings">
+                                <div class="o_setting_left_pane">
+                                    <field name="enable_lazy_loading"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label string="Produc Lazy Loading" for="enable_lazy_loading"/>
+                                    <div class="text-muted">
+                                        Load The Products on Shop page with following options.
+                                    </div>
+                                    <div class="mt8">
+                                        <field name="lazy_loading_options" class="o_light_label" widget="radio" required="True"/>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6 o_setting_box" id="price_filter_settings">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <label string="Show/Hide Product Ratings" for="products_rating_mode"/>
+                                    <div class="text-muted">
+                                        Configure the Product Rating Display mode.
+                                    </div>
+                                    <div class="mt8">
+                                        <field name="products_rating_mode" class="o_light_label" widget="radio" required="True"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6 o_setting_box" id="price_filter_settings">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <label for="product_filter_view_mode"/>
+                                    <div class="text-muted">
+                                        Configure the Product Filters Display mode.
+                                    </div>
+                                    <div class="mt8">
+                                        <field name="product_filter_view_mode" class="o_light_label" widget="radio" required="True"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Social Sharing -->
+                        <h2>Product Social Sharing</h2>
+                        <div class="row mt16 o_settings_container" id="product_social_share">
+                            <div class="col-12 col-lg-6 o_setting_box" id="social_share">
+                                <div class="o_setting_left_pane">
+                                    <field name="facebook_sharing"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="facebook_sharing"/>
+                                    <span class="fa fa-lg fa-globe"/>
+                                    <div class="text-muted">
+                                        Display facebook sharing in product page
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="twitter_sharing"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="twitter_sharing"/>
+                                    <span class="fa fa-lg fa-globe"/>
+                                    <div class="text-muted">
+                                        Display twitter sharing in product page
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="linkedin_sharing"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="linkedin_sharing"/>
+                                    <span class="fa fa-lg fa-globe"/>
+                                    <div class="text-muted">
+                                        Display linkedin sharing in product page
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="mail_sharing"/>
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="mail_sharing"/>
+                                    <span class="fa fa-lg fa-globe"/>
+                                    <div class="text-muted">
+                                        Display mail sharing in product page
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--...................Theme Home Page CAROUSEL..................................................... -->
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="action_website_theme_configuration" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'theme_outline'}</field>
+        </record>
+
+        <menuitem name="Theme outline" id="website_menu" parent="website.menu_website_global_configuration" sequence="15"/>
+        <menuitem name="Configuration" id="congiguration_menu" action="action_website_theme_configuration" parent="theme_outline.website_menu" groups="base.group_system" sequence="10"/>
+
+    </data>
+</odoo>

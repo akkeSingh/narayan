@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="th_header_offer_top" name="Theme Header Offer Top">
+        <section class="th_header_offer_top">
+            <p></p>
+            <div class="s_rating th_header_offer_text">
+                <ul class="list-unstyled d-flex align-items-center">
+                    <li>Special Offer on First Purchase</li>
+                    <li><section>|</section></li>
+                    <li>Code : #ASDA44</li>
+                    <li><section>|</section></li>
+                    <li>Get 50% Off</li>
+                </ul>
+            </div>
+        </section>
+    </template>
+    <template id="th_header_pricelist_dpdn" name="Theme Header Pricelist">
+        <t t-set="website_sale_pricelists" t-value="website.get_pricelist_available(show_visible=True)"/>
+        <div class="th_header_pricelist"  t-if="website_sale_pricelists and len(website_sale_pricelists)&gt;1">
+            <t t-call="website_sale.pricelist_list"/>
+        </div>
+    </template>
+    <template id="th_header_lang_dpdn" name="Theme Header Language">
+        <div class="th_header_lang" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1)">
+            <div class="dropdown th_header_language">
+                <a class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span class="d-none d-md-inline-block " t-esc="list(filter(lambda lg : lg[0] == lang, languages))[0][2].split('/').pop()"/>
+                    <span class="d-md-none d-inline-block "> <i class="fa fa-language"></i> </span>
+                    <span class="caret"/>
+                </a>
+                
+                <div class="dropdown-menu js_language_selector" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+                    <t t-foreach="languages" t-as="lg">
+                        <a  t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+                            t-attf-class="dropdown-item js_change_lang #{'active' if lang == lg[0] else ''}"
+                            t-att-data-url_code="lg[1]">
+                            <t t-esc="lg[2].split('/').pop()"/>
+                        </a>
+                        <i class="fa fa-language" aria-hidden="true"></i>
+                    </t>
+                    <a  class="dropdown-item d-none d-sm-block"
+                        t-attf-href="/web#action=base.action_view_base_language_install&amp;website_id=#{website.id if website else ''}&amp;url_return=#{url_return}"
+                        groups="website.group_website_publisher">
+                        <i class="fa fa-plus-circle"/>
+                        Add a language...
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </template>
+    <template id="header_search_icon" name="Theme Header Search">
+        <div class="th_header_search">
+            <div class="th_header_srch_icon">
+              <a class="fa fa-search th_srch_icon"/>
+            </div>
+            <div class="th_search_popover">
+                <form action="/shop" method="get" t-att-class="search_class">
+                    <div class="input-group">
+                        <input type="text" name="search"
+                                class="search-query form-control oe_search_box"
+                                placeholder="Search..."
+                                t-att-value="search"/>
+                        <button type="submit" class="btn btn-link oe_search_button">
+                            <i class="fa fa-search"/>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </template>
+    <template id="header_cart_icon" name="Theme Header Cart Icon">
+        <div class="th_header_cart_icon">
+            <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+            <a id="my_cart" href="/shop/cart" class="nav-link o_wsale_my_cart">
+                <i class="fa fa-shopping-cart"/>
+                <sup t-attf-class="my_cart_quantity badge badge-primary" t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/>
+            </a>
+        </div>
+    </template>
+    
+    <template id="header_wishlist_icon" name="Theme Header Wishlist Icon">
+        <div class="th_header_wish_icon" t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
+            <t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
+                <t t-set='wishcount' t-value="len(request.env['product.wishlist'].current())"/>
+                <a id="my_wish" href="/shop/wishlist" class="nav-link o_wsale_my_wish" t-att-style="not wishcount and 'display:none;'">
+                    <i class="fa fa-heart"/>
+                    <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary">
+                        <t t-esc='wishcount or "0"'/>
+                    </sup>
+                </a>
+            </t>
+        </div>
+    </template>
+    <template id="header_vertical_menu_icon" name="Theme Header Vertical Menu Icon">
+        <div  class="te_bar_icon d-inline-block d-md-none" >
+            <a type="button" class="navbar-toggler" data-toggle="collapse" data-target="#top_menu_collapse">
+                <i class="fa fa-sliders"/>
+            </a>
+        </div>
+    </template>
+    <template id="header_user_account_menu_icon" name="Theme Header User Account Menu Icon">
+       <div class="dropdown th_user_account" t-ignore="true" t-if="not user_id._is_public()">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="th_user_account_icon">
+                    <i class="fa fa-user-circle"></i>
+                </span>
+                <span class="th_user_account_name">
+                    <t t-esc="user_id.name"/>
+                </span>
+                
+            </a>
+            <div class="dropdown-menu dropdown-menu-right js_usermenu" role="menu">
+                <a href="/my/home" role="menuitem" class="dropdown-item">
+                    <span class="fa fa-user"/> My Account
+                </a>
+                <a href="/shop/cart" role="menuitem" class="dropdown-item">
+                    <span  class="fa fa-check-circle"/> Checkout
+                </a>
+                <a href="/my/orders" role="menuitem" class="dropdown-item">
+                    <span class="fa fa-pie-chart"/> My orders
+                </a>
+                <a href="/shop/wishlist" role="menuitem" class="dropdown-item">
+                    <span class="fa fa-heart"/> My Wishlist
+                </a>
+                <a id="comp_menu_link" class="dropdown-item" role="menuitem">
+                    <i class="fa fa-bar-chart"/> Comparison List
+                    <sup class="product_comp_quantity o_animate_blink badge badge-primary"/>
+                </a>
+                <a id="o_logout" class="dropdown-item" t-attf-href="/web/session/logout?redirect=/" role="menuitem">
+                    <span class="fa fa-sign-out"/> Logout
+                </a>
+            </div>
+        </div>
+        <div groups="base.group_public" class="th_signin">
+            <a t-attf-href="/web/login" class="th_user_account_icon">
+                <i class="fa fa-user-circle"></i>
+            </a>
+        </div>
+    </template>
+    <!-- ======================= Header style option 1========================= -->
+    <template id="header_style_1" inherit_id="portal.frontend_layout" active="False" name="Header style 1">
+        <xpath expr="//header/nav" position="before">
+            <div class="th_header_before_overlay">
+                <div class="container">
+                    <div class="row py-3 align-items-center th_header_style_1">
+                        <div class="col-md-5 th_header_1_left">
+                            <t t-call="theme_outline.th_header_pricelist_dpdn"/>   
+                            <t t-call="theme_outline.th_header_lang_dpdn"/>   
+                        </div>
+                        <div class="col-md-2 th_header_1_center">
+                            <a href="/" class="th_header_logo logo ">
+                                <span t-field="res_company.logo" t-options="{'widget': 'image'}" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                            </a>
+                        </div>
+                        <div class="col-md-5 th_header_1_right">
+                            <t t-call="theme_outline.header_cart_icon"/>
+                            <t t-call="theme_outline.header_wishlist_icon"/>
+                            <t t-call="theme_outline.header_search_icon"/>
+                            <t t-call="theme_outline.header_vertical_menu_icon"/>
+                            <t t-call="theme_outline.header_user_account_menu_icon"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <!-- ======================= Header style option 2========================= -->
+    <template id="header_style_2" inherit_id="portal.frontend_layout" active="False" name="Header style 2" priority="100">
+        <xpath expr="//header/nav" position="before">
+            <div class="th_header_before_overlay">
+                <div class="th_header_top">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 th_header_offer">
+                                <t t-call="theme_outline.th_header_offer_top"/>
+                            </div>
+                            <div class="te_login_right col-lg-5">
+                                <t t-call="theme_outline.th_header_pricelist_dpdn"/>
+                                <t t-call="theme_outline.th_header_lang_dpdn"/>
+                                <t t-call="theme_outline.header_user_account_menu_icon"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="th_header_inner">
+                    <div class="container">
+                        <div class="row py-3 align-items-center">
+                            <div class="col-lg-6">
+                                <a href="/" class="th_header_logo logo ">
+                                    <span t-field="res_company.logo" t-options="{'widget': 'image'}"
+                                        t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 th_header_inner_right">
+                                <t t-call="theme_outline.header_search_icon"/>
+                                <t t-call="theme_outline.header_cart_icon"/>
+                                <t t-call="theme_outline.header_wishlist_icon"/>
+                                <t t-call="theme_outline.header_vertical_menu_icon"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <!-- ======================= Header style option 3========================= -->
+    <template id="header_style_3" inherit_id="portal.frontend_layout" active="False" name="Header style 3">
+        <xpath expr="//div[@id='wrapwrap']/header" position="after">
+            <!-- Vertical Menu -->
+        </xpath>
+        <xpath expr="//header" position="before">
+            <div class="th_header_before_overlay">
+                <div class="row align-items-center py-2 te_offer_3">
+                    <div class="container" t-if="user_id._is_public()">
+                        <div class="row">
+                            <span style="text-align: center;line-height: 50px;padding-left: 20%">
+                                <b>PRICE MATCH - 15% OFF SELECTED BEAUTY  &amp; FRAGRANCE</b>
+                                <b style="float: right;padding-left: 10px;">
+                                    <a href="/web/login">Login Or Signup Now</a>
+                                </b>
+                                <br/>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container th_header_style_3">
+                    <div class="row align-items-center py-2 th_header_style_3_inner">
+                        <div class="col-lg-3 col-md-2">
+                            <a href="/" class="th_header_logo logo">
+                                <span t-field="res_company.logo" t-options="{'widget': 'image'}"
+                                      t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-5 th_header_3_search">
+                            <t t-call="theme_outline.header_search_icon"/>
+                        </div>
+                        <div class="col-lg-3 col-md-5 te_login_right">
+                            <t t-call="theme_outline.th_header_lang_dpdn"/>
+                            <t t-call="theme_outline.header_cart_icon"/>
+                            <t t-call="theme_outline.header_wishlist_icon"/>
+                            <t t-call="theme_outline.header_vertical_menu_icon"/>
+                            <t t-call="theme_outline.header_user_account_menu_icon"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <!-- ======================= Header style option 4========================= -->
+    <template id="header_style_4" inherit_id="portal.frontend_layout" active="False" name="Header style 4">
+        <xpath expr="//div[@id='wrapwrap']/header" position="after">
+            <!-- vertical Menu -->
+        </xpath>
+        <xpath expr="//header" position="before">
+            <div class="th_header_before_overlay">
+                <div class="container th_header_style_4">
+                    <div class="row align-items-center mt16 th_header_style_4_inner_first">
+                        <div class="col-lg-8 th_header_4_offer">
+                            <t t-call="theme_outline.th_header_offer_top"/>
+                        </div>
+                        <div class="col-lg-4 th_header_4_search">
+                           <t t-call="theme_outline.header_search_icon"/>
+                        </div>
+                    </div>
+                    <div class="row align-items-center py-2 th_header_style_4_inner">
+                        <div class="col-lg-4">
+                            <a href="/" class="th_header_logo logo">
+                                <span t-field="res_company.logo" t-options="{'widget': 'image'}"
+                                      t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                            </a>
+                        </div>
+                        <div class="col-lg-8 te_login_right">
+                            <t t-call="theme_outline.header_cart_icon"/>
+                            <t t-call="theme_outline.header_wishlist_icon"/>
+                            <t t-call="theme_outline.header_vertical_menu_icon"/>
+                            <t t-call="theme_outline.th_header_pricelist_dpdn"/>
+                            <t t-call="theme_outline.th_header_lang_dpdn"/>
+                            <t t-call="theme_outline.header_user_account_menu_icon"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <template id="header_social_icon" name="Theme Header Social Icons">
+        <div class="th_header_social">
+            <div>
+                <p></p>
+                <div t-attf-class="s_share th_header_w_share #{_classes or ''}">
+                    <a t-if="website.social_facebook" t-att-href="website.social_facebook"
+                        class="btn btn-link">
+                        <i class="fa fa-facebook"/>
+                    </a>
+                    <a t-if="website.social_twitter" t-att-href="website.social_twitter"
+                        class="btn btn-link">
+                        <i class="fa fa-twitter"/>
+                    </a>
+                    <a t-if="website.social_linkedin" t-att-href="website.social_linkedin"
+                        class="btn btn-link">
+                        <i class="fa fa-linkedin"/>
+                    </a>
+                    <a t-if="website.social_youtube" t-att-href="website.social_youtube"
+                        class="btn btn-link">
+                        <i class="fa fa-youtube-play"/>
+                    </a>
+                    <!-- <a t-if="website.social_googleplus" t-att-href="website.social_googleplus"
+                        rel="publisher" class="btn btn-link">
+                        <i class="fa fa-google"/>
+                    </a> -->
+                    <a t-if="website.social_github" t-att-href="website.social_github"
+                        class="btn btn-link">
+                        <i class="fa fa-github"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+    <!-- ======================= Header style option 5========================= -->
+    <template id="header_style_5" inherit_id="portal.frontend_layout" active="False" name="Header style 5">
+        <xpath expr="//div[@id='wrapwrap']/header" position="after">
+            <!-- Vertical Menu -->
+        </xpath>
+        <xpath expr="//header" position="before">
+            <div class="th_header_before_overlay">
+                <div class="container th_header_style_5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 th_header_before_left">
+                            <t t-call="theme_outline.header_social_icon"/>
+                            <t t-call="theme_outline.th_header_pricelist_dpdn"/>
+                            <t t-call="theme_outline.th_header_lang_dpdn"/>
+                        </div>
+                        <div class="col-lg-5 th_header_before_right">
+                            <t t-call="theme_outline.header_search_icon"/>
+                            <t t-call="theme_outline.header_cart_icon"/>
+                            <t t-call="theme_outline.header_wishlist_icon"/>
+                            <t t-call="theme_outline.header_vertical_menu_icon"/>
+                            <t t-call="theme_outline.header_user_account_menu_icon"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <!-- ======================= Header style option 6========================= -->
+    <template id="header_style_6" inherit_id="portal.frontend_layout" active="False" name="Header style 6">
+        <xpath expr="//div[@id='wrapwrap']/header" position="after">
+           <!-- vertical Menu -->
+        </xpath>
+        <xpath expr="//header" position="before">
+            <div class="th_header_before_overlay">
+                <div class="th_header_before_bg th_header_style_6">
+                    <div class="container">
+                        <div class="row align-items-center py-2">
+                            <div class="col-lg-5 th_header_before_left">
+                                <t t-call="theme_outline.header_social_icon"/>
+                                <t t-call="theme_outline.th_header_pricelist_dpdn"/>
+                                <t t-call="theme_outline.th_header_lang_dpdn"/>
+                            </div>
+                            <div class="col-lg-7 th_header_before_right">
+                                <div class="th_header_static_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Custom menu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Information</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Our story</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="px-1 th_header_6_srch_icon te_srch_icon">
+                                    <a>
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </div>
+                                <t t-call="theme_outline.header_search_icon"/>
+                                <t t-call="theme_outline.header_cart_icon"/>
+                                <t t-call="theme_outline.header_wishlist_icon"/>
+                                <t t-call="theme_outline.header_vertical_menu_icon"/>
+                                <t t-call="theme_outline.header_user_account_menu_icon"/>
+                            </div>
+                            <div class="col-lg-7 th_header_search">
+                                <div class="te_sub_search">
+                                    <span class="th_header_search_close te_srch_close">x</span>
+                                    <form action="/shop" method="get" t-att-class="search_class">
+                                        <div class="input-group">
+                                            <button type="submit"
+                                                    class="btn btn-link oe_search_button te_search_icon">
+                                                <i class="fa fa-search"/>
+                                            </button>
+                                            <input type="text" name="search"
+                                                   class="search-query form-control oe_search_box te_srch_box"
+                                                   placeholder="Search..." t-att-value="search"/>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- ======================= Header style option 7 ========================= -->
+    <template id="header_style_7" inherit_id="portal.frontend_layout" active="False" name="Header style 7">
+        <xpath expr="//div[@id='wrapwrap']/header" position="after">
+           <!-- vertical Menu -->
+        </xpath>
+        <xpath expr="//header" position="before">
+            <div class="th_header_top th_header_before_overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="th_header_offer_top col-lg-7">
+                            <t t-call="theme_outline.th_header_offer_top"/>
+                        </div>
+                        <t t-call="theme_outline.th_header_pricelist_dpdn"/>
+                        <t t-call="theme_outline.th_header_lang_dpdn"/>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//nav/div/a[hasclass('navbar-brand')]" position="attributes">
+            <attribute name="class">navbar-brand logo col-lg-2</attribute>
+        </xpath>
+        <xpath expr="//div[@id='top_menu_collapse']" position="attributes">
+            <attribute name="class">collapse navbar-collapse col-lg-7 order-2 order-lg-1</attribute>
+        </xpath>
+
+        <xpath expr="//div[@id='top_menu_collapse']" position="after">
+            <div class="col-lg-3 th_header_right_icon order-1 order-lg-2">
+                <div class="th_header_search">
+                    <div class="th_header_srch_icon">
+                        <a href="#" class="">
+                            <i class="fa fa-search te_srch_icon"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="te_searchform__popup" id="searchForm">
+                    <a href="#" class="te_btn-close">
+                        <i class="fa fa-times te_srch_close"/>
+                    </a>
+                    <div class="te_searchform__body">
+                        <div class="te_text">Start typing and press Enter to search</div>
+                        <form class="te_searchform" action="/shop" method="get">
+                            <input type="text" name="search" id="search" class="te_searchform__input"
+                                   placeholder="Search Entire Store..."/>
+                            <button type="submit" class="te_searchform__submit">
+                                <i class="fa fa-search "></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <t t-call="theme_outline.header_cart_icon"/>
+                <t t-call="theme_outline.header_wishlist_icon"/>
+                <t t-call="theme_outline.header_vertical_menu_icon"/>
+                <t t-call="theme_outline.header_user_account_menu_icon"/>
+                <div class="d-lg-none te_toggler_icon">
+                    <button type="button" class="navbar-toggler p-0" data-toggle="collapse"
+                            data-target="#top_menu_collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- Replaced signin from header -->
+    <template id="portal_show_sign_in_inherit" inherit_id="portal.portal_show_sign_in" name="Show Sign In">
+        <xpath expr="//li[@groups='base.group_public']" position="replace"></xpath>
+        <xpath expr="//li[@groups='base.group_public']" position="replace"></xpath>
+    </template>
+
+    <template id="pricelist_list_inherit" inherit_id="website_sale.pricelist_list" priority="10">
+        <xpath expr="//a[hasclass('dropdown-toggle')]" position="replace">
+            <a role="button" href="#" class="dropdown-toggle d-none d-md-inline-block te_currency_name" data-toggle="dropdown">
+                <t t-esc="curr_pl and curr_pl.name or ' - '"/>
+            </a>
+            <a role="button" href="#" class="dropdown-toggle d-md-none d-inline-block te_currency_symbol" data-toggle="dropdown">
+                <t t-esc="curr_pl.currency_id.symbol"></t>
+            </a>
+        </xpath>
+    </template>
+   
+    <!-- Header  Sliders  -->
+    <template id="header_menu_or_cart_slider" inherit_id="web.frontend_layout" name="Header Cart Slider">
+        <xpath expr="//div[@id='wrapwrap']//header" position="before">
+            <!-- cart Slider -->
+            <div id="th_mycart_slider">
+                <a class="btn btn-default navbar-close justify-content-between align-items-center">
+                    <span class="text_cart"> Your Shopping Cart</span>
+                    <span class="text_comp"> Product Compare List </span>
+                    <span class="close_icon"><i class="fa fa-times"/></span>
+                </a>
+                <div class="dynamic_cart_content">
+                    <div class='data_loader'>
+                        <t t-call="theme_outline.theme_load_icon"/>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu Slider -->
+            <div id="th_mobile_menu_slider">
+                <div class="menu_heading">
+                    <a class="navbar-close d-flex justify-content-between align-items-center d-md-none" data-target="#top_menu_collapse">
+                        <span href="/" class="navbar-brand logo">
+                            <span t-field="res_company.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+                        </span>
+                        <i class="fa fa-times"/>
+                    </a>
+                </div>   
+            </div>
+        </xpath>
+    </template>
+    <!-- Header Cart Popover inherit-->
+    <template id="cart_popover" inherit_id="website_sale.cart_popover">
+        <xpath expr="//div[hasclass('alert-info')]" position="after">
+            <div t-if="not (website_sale_order and website_sale_order.cart_quantity)" class="d-flex align-items-center justify-content-center pt16 pb16" style="order:4;">
+                <a href="/shop" class="btn btn-primary"> Shop Now </a>
+            </div>
+            <h5 class="text-center">
+                You have
+                <b><span t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/></b>
+                item(s) in your cart
+                <span t-if="not (website_sale_order and website_sale_order.cart_quantity)"> :( </span>
+                <span t-if="website_sale_order and website_sale_order.cart_quantity"> :) </span>
+            </h5>
+
+        </xpath>
+        <xpath expr="//div[hasclass('alert-info')]" position="replace">
+            <div t-if="not website_sale_order or not website_sale_order.website_order_line" class="empty_cart_div">
+                <img src="/theme_outline/static/src/img/shopping-cart.png"/>
+            </div>
+        </xpath>
+        <!-- Popover remove button -->
+        <xpath expr="//div[hasclass('cart_line')]//div[hasclass('col-9')]" position="inside">
+            <span class="js_delete_product hidden-xs no-decoration btn btn-secondary circle" title="Remove from cart">
+                <span class="remove_button">X</span>
+            </span>
+            <input
+                type="hidden"
+                class="js_quantity form-control quantity"
+                t-att-data-line-id="line.id"
+                t-att-data-product-id="line.product_id.id"
+                t-att-value="int(line.product_uom_qty) == line.product_uom_qty and int(line.product_uom_qty) or line.product_uom_qty"/>
+        </xpath>
+        <!-- cart buttons -->
+        <a role="button" class="btn btn-primary" href="/shop/cart" position="replace">
+            <div class="d-flex align-items-center justify-content-between">
+                <a role="button" class="btn btn-secondary" href="/shop/cart">
+                    View Cart (<t t-esc="website_sale_order.cart_quantity"/>
+                    items)
+                </a>
+                <span>
+                    OR
+                </span>
+                <a role="button" class="btn btn-primary" href="/shop/checkout">
+                    Checkout
+                </a>
+            </div>
+        </a>
+    </template>
+</odoo>

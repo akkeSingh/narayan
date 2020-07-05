@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="lazy_product_items" name="Lazy Loading Products List">
+      <t t-foreach="products" t-as="product">
+          <div class="oe_product oe_list oe_product_cart" t-att-data-publish="product.website_published and 'on' or 'off'">
+              <t t-call="website_sale.products_item">
+                  <t t-set="show_publish" t-value="True" />
+              </t>
+          </div>
+      </t>
+    </template>
+    <template id="products_lazy_load_view_template" inherit_id="website_sale.products" name="Products Lazy load Options" priority="100">
+        <xpath expr="//div[hasclass('products_pager')][last()]" position="replace">
+            <t t-set="is_lazy_load_enable" t-value="request.env['ir.config_parameter'].sudo().get_param('theme_outline.enable_lazy_loading')"/>
+            <div t-if="is_lazy_load_enable" class="products_pager form-inline justify-content-center mt-3">
+                <t t-set="mode" t-value="request.env['ir.config_parameter'].sudo().get_param('theme_outline.lazy_loading_options')"/>
+                <div t-if="products" id="lazy_loader" class="text-center" t-att-data-mode="mode">
+                    <div class="data_loader" style="display:none;">
+                        <t t-call="theme_outline.theme_load_icon"/>
+                    </div>
+                    <span id="load_more_button" t-if="mode=='button'" class="btn btn-primary">
+                        Load More
+                    </span>
+                </div>
+            </div>
+            <div t-else="" class="products_pager form-inline justify-content-end mb-3">
+                <t t-call="website.pager"/>
+            </div>
+        </xpath>
+    </template>
+    <!-- Mask Cover -->
+    <template id="theme_mask_cover" inherit_id="website.layout">
+		<xpath expr="//main" position="inside">
+			<div class="mask_cover"></div>
+		</xpath>
+	</template>
+    <!-- Loader animated svg -->
+    <template id="theme_load_icon" name="Theme Loading Icon">
+        <div t-attf-class="theme_loader_layout #{_classes}">
+            <svg version="1.1" id="L4" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+                <circle fill="#333" stroke="none" cx="30" cy="50" r="6">
+                    <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1"></animate>
+                </circle>
+                <circle fill="#333" stroke="none" cx="50" cy="50" r="6">
+                    <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.2"></animate>
+                </circle>
+                <circle fill="#333" stroke="none" cx="70" cy="50" r="6">
+                    <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.3"></animate>
+                </circle>
+            </svg>
+        </div>
+	</template>
+    <!-- Loader animated svg  inherit-->
+    <template id="theme_load_icon_inherit" inherit_id="portal.frontend_layout" name="Theme Loading Icon Inherit">
+		<xpath expr="//div[@id='wrapwrap']" position="after">
+            <t t-set="_classes" t-value="'d-none'"/>
+            <t t-call="theme_outline.theme_load_icon"/>
+		</xpath>
+	</template>
+ </odoo>

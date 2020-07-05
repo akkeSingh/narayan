@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_outline_page_title" name="Page Title">
+        <section class="s_outline_page_title" style="background-image: url('/theme_outline/static/src/img/snippet/shop_page.jpg');background-position: 50% 50%;">
+            <div class="row m-0">
+                <div class="col-12 pt32 pb32" style="background-image: linear-gradient(90deg, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.02) 100%)">
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <span class="page_strip_text" style="font-size:1.5rem; color:#FFF;">Show Page</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <!--~~~~~~~~~~~~~s_outline_page_title_paralex~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <template id="s_outline_page_title_paralex" name="Page Title Paralex">
+        <section class="s_outline_page_title  parallax s_parallax_is_fixed bg-black-50 pt16 pb16" data-scroll-background-ratio="5">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_parallax_default_image'); background-position: 50% 75%;"/>
+            <div class="oe_structure">
+                <section>
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title pt16 pb16">
+                                <h2 class="title_header">Your Site Title</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+
+    <template id="s_outline_text_block" name="Text block">
+        <section class="s_text_block pt32 pb32 th_snippet ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center    align-items-center">
+                            <h3 class="h_tag">Welcom To outline</h3>
+                        </div>
+                        <div class="">
+                            <p class="p_tag" style="text-align: center;">
+                                A great way to catch your reader's attention is to tell a story. 
+                                Everything you consider writing can be told as a story. Great stories have personality.
+                                Consider telling a great story that provides personality. Writing a story with personality for
+                                potential clients will assists with making a relationship connection.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_full_image_block" name="Full Image Block">
+        <section class="s_outline_full_image_block" style="background-image:url('/web/image/website.s_parallax_default_image');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 pb16 pt16">
+                        <h2 class="title_header" style="color:#FFFFFF;">Your Site Title</h2>
+                        <p class="p_tag" style="color:#FFFFFF;">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            scrambled it to make a type specimen book. It has survived not only five centuries.
+                        </p>
+                        <div class="s_btn" data-name="Buttons">
+                            <a href="/" class="btn btn-yellow">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_full_image_paralex" name="Full Image Paralex">
+        <section class="s_outline_full_image_paralex  parallax s_parallax_is_fixed bg-black-50 pt32 pb32" data-scroll-background-ratio="5">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/web/image/website.s_parallax_default_image'); background-position: 50% 75%;"/>
+            <div class="oe_structure">
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 pb16 pt16">
+                                <h2 class="title_header" style="color:#FFFFFF;">Your Site Title</h2>
+                                <p class="p_tag" style="color:#FFFFFF;">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    scrambled it to make a type specimen book. It has survived not only five centuries,
+                                </p>
+                                <div class="s_btn" data-name="Buttons">
+                                    <a href="/" class="btn btn-yellow">Discover More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+    <template id="latest_posts_template">
+        <div t-foreach="posts" class="col-12 col-sm-6 col-md-4 media mt-3 s_latest_posts_post" t-as="p">
+            <t t-set="_record" t-value="p"/>
+            <a t-attf-href="/blog/#{p.blog_id.id}/post/#{p.id}">
+                <span class="o_record_cover_image"/>
+                <div class="media-body pb-2">
+                    <h6 class="h_tag" t-esc="_record.name"/>
+                    <p class="p_tag text-muted" t-field="_record.subtitle"/>
+                </div>
+                <div class="media-body author_detail d-flex pb-2">
+                    <span class="image" t-esc="_record.author_avatar" t-options="{'widget':'image'}"/>
+                    <span class="detail">
+                        <span class="text-muted p_date" t-esc="_record.published_date"/>
+                        <span class="name" t-esc="_record.author_id.name"/>
+                    </span>
+                </div>
+            </a>
+        </div>
+    </template>  
+    <template id="latest_posts_2_template">
+        <div t-foreach="posts" class="col-md-4 col-sm-6 col-12 pt8 pb8 s_latest_posts_post"  t-as="p" >
+            <div class="item-box-blog">
+                <div class="item-box-blog-image">
+                    <div class="item-box-blog-date">
+                        <span t-esc="p.published_date" class="mon" t-options="{'widget':'date','format':'MMMM dd'}"/>
+                    </div>
+                    <figure>
+                        <a class="s_latest_posts_post_cover position-relative d-flex flex-column shadow-sm overflow-hidden rounded text-decoration-none" t-attf-href="/blog/#{p.blog_id.id}/post/#{p.id}">
+                            <t t-call="website.record_cover">
+                                <t t-set="_record" t-value="p"/>
+                                <t t-set="use_filters" t-value="True"/>
+                                <t t-set="additionnal_classes" t-value="'h-100 w-100 bg-600 position-absolute'"/>
+                            </t>
+                        </a>
+                    </figure>
+                </div>
+                <div class="item-box-blog-body">
+                    <t t-set="_record" t-value="p"/>
+                    <div class="item-box-blog-heading">
+                        <a t-attf-href="/blog/#{p.blog_id.id}/post/#{p.id}" tabindex="0">
+                            <h5 class="h_tag" t-esc="p.name"/>
+                        </a>
+                    </div>
+                    <!--Data-->
+                    <div class="item-box-blog-data" style="padding:15px;">
+                        <p>
+                            <i class="fa fa-user-o"/>
+                            <span class="uname" t-esc="_record.author_id.name"/>
+                            <i class="fa fa-comments-o"/>
+                            <span class="visits">
+                                visits(<t t-esc="_record.visits"/>)
+                            </span>
+                        </p>
+                    </div>
+                    <!--Text-->
+                    <div class="item-box-blog-text">
+                        <p t-field="_record.subtitle"></p>
+                    </div>
+                    <!-- Read More Button-->
+                    <div class="item-box-blog-btn">
+                        <a class="btn read" t-attf-href="/blog/#{p.blog_id.id}/post/#{p.id}">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>   
+    <template id="latest_posts_3_template">
+        <figure t-foreach="posts" t-as="p" class="col-12 col-md-6 col-xl-4 my-3 s_latest_posts_post">
+            <a class="s_latest_posts_post_cover position-relative d-flex flex-column shadow-sm overflow-hidden rounded text-decoration-none" t-attf-href="/blog/#{p.blog_id.id}/post/#{p.id}">
+                <t t-call="website.record_cover">
+                    <t t-set="_record" t-value="p"/>
+                    <t t-set="use_filters" t-value="True"/>
+                    <t t-set="additionnal_classes" t-value="'h-100 w-100 bg-600 position-absolute'"/>
+                </t>
+
+                <figcaption class="text-center w-100 h-100 px-3 d-flex flex-column flex-grow-1">
+                    <div class="s_latest_posts_post_title text-white" t-field="p.name"/>
+                    <div class="s_latest_posts_post_subtitle text-white" t-field="p.subtitle"/>
+                </figcaption>
+
+                <div class="s_latest_posts_loader d-flex align-items-center justify-content-center bg-200">
+                    <div class="d-none rounded-circle bg-black-25 w-25 h-25"/>
+                </div>
+            </a>
+        </figure>
+    </template>
+    <template id="s_outline_blog_snippet" name="Blogs 1">
+        <section class="s_latest_posts s_outline_blog_snippet th_snippet pt16 pb16">
+            <div class="container">
+                <h2 class="text-center">Latest Posts</h2>
+                <div class="row js_get_posts"
+                    data-loading="true"
+                    data-template="theme_outline.latest_posts_template"/>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_blog_snippet_2" name="Blog 2">
+        <section class="s_latest_posts s_outline_blog_snippet_2 th_snippet pt16 pb16">
+            <div class="container">
+                <h2 class="text-center">Latest Posts</h2>
+                <div class="row js_get_posts"
+                    data-loading="true"
+                    data-template="theme_outline.latest_posts_2_template"/>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_gallery_type_1" name="Gallery">
+        <section class="s_outline_gallery_type_1 th_snippet pt16 pb16">
+            <div class="container">
+                <div class="row">
+                    <div class="banner col-lg-6 col-md-6 col-sm-6" t-foreach="range(2)" t-as="item">
+                        <div class='s_image'>
+                            <img src="/theme_outline/static/src/img/snippet/snippet6_img1.jpg" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                        </div>
+                        <div class="content">
+                            <a href="/">
+                                <h4 class="h_tag">Sports Bags</h4>
+                            </a>
+                            <div class="s_btn pt16 pb16" data-name="Buttons">
+                                <a href="/" class="btn btn-secondary rounded-0">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s_banner  col-lg-4 col-md-4 col-sm-4" t-foreach="range(3)" t-as="item">
+                        <div class='s_image'>
+                            <img src="/theme_outline/static/src/img/snippet/snippet2_img1.jpg" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                        </div>
+                        <a href="/">
+                            <h4 class="h_tag">Sport Items</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_shopping_display" name="Shopping Display">
+        <section class="s_outline_shopping_display th_snippet pt16 pb16">
+            <div class="shopping row m-0">
+                <div class="focus-product p_column col-12 col-md-6" style="background-image:url('/theme_outline/static/src/img/snippet/snippet4_img1.jpg')">
+                    <h2 class="title">Best Sellers</h2>
+                    <a class="button button--primary" href="/shop/all-shoes/">Shop Now</a>
+                </div>
+                <div class="sub-product p_column col-12 col-md-3" style="background-image:url('/theme_outline/static/src/img/snippet/snippet1_img2.jpg');">
+                    <h2 class="title">Apparel</h2>
+                    <a class="button button--primary" href="/shop/gear/tees/">Shop Now</a>
+                </div>
+                <div class="sub-product p_column col-12 col-md-3" style="background-image:url('/theme_outline/static/src/img/snippet/snippet1_img1.jpg');">
+                    <h2 class="title">Gear</h2>
+                    <a class="button button--primary" href="/shop/gear/">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_shopping_category" name="Shopping Category">
+        <section class="s_outline_shopping_category th_snippet pt16 pb16">
+            <div class="draggable">
+                <div class="super_row row m-0">
+                    <div class="home-category col-md-4" t-foreach="range(3)" t-as="item">
+                        <div class="wrapper">
+                            <img class="img img-fluid" src="/theme_outline/static/src/img/snippet/snippet1_img1.jpg" alt="Bags &amp; Jackets" style="width: 100%;"/>
+                            <div class="overlay"></div>
+                            <div class="content">
+                                <span class="heading">Lamps &amp; Tables
+                                </span>
+                                <span class="subheading">Complete the look with Classic Lights</span>
+                                <a class="photo-link" href="/" tabindex="0">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+     <template id="s_outline_shop_now" name="Shop Now">
+        <section class="s_outline_shop_now th_snippet pt16 pb16">
+            <div class="row m-0">
+                <div class="sub_banner_product col-6 col-md-4 p-0" t-foreach="range(3)" t-as="item">
+                    <div class="hovereffect">
+                        <img class="img img-responsive img-fluid" src="/theme_outline/static/src/img/snippet/snippet1_img1.jpg"/>
+                        <div class="overlay">
+                            <a href="/">
+                                <h2>One Nation. One Team.</h2>
+                            </a>
+                            <p>
+                                <a href="/">Shop Now</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_banner_newsletter" name="Banner Newsletter">
+        <section class="s_outline_banner_newsletter th_snippet pt16 pb16" style="background-image:url('/theme_outline/static/src/img/snippet/Newsletter.png');">
+            <div class="row justify-content-center m-0">
+                <div class="banner_newsletter col-12 col-md-6 d-flex justify-content-center align-items-center text-center flex-column">
+                    <h1 class="text-center ns_heading">JOIN OUR NEWSLETTER</h1>
+                    <p class="text-center ns_text">Subscribe to receive special offers and info about new products</p>
+                    <div class="input-group js_subscribe" data-list-id="2" data-subscribe="off">
+                        <input type="email" name="email" class="js_subscribe_email form-control" placeholder="your email..."/>
+                        <span class="">
+                            <a role="button" href="#" class="btn btn-defalut js_subscribe_btn o_default_snippet_text">Subscribe</a>
+                            <a role="button" href="#" class="btn btn-defalut js_subscribed_btn d-none o_default_snippet_text" disabled="disabled">Thanks</a>
+                        </span>
+                        <div class="alert alert-success d-none o_default_snippet_text" role="status">Thanks for your subscription!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_company_stats" name="Company Stats">
+        <section class="s_outline_company_stats th_snippet pt16 pb16" style="background: #F8F8F8;">
+            <div class="container">
+                <div class="row justify-content-center pt64 pb64">
+                    <div class="summary col-12 col-sm-16 col-md-6">
+                        <h5 class="h_tag mb4">Over All Stats</h5>
+                        <h6 class="h_tag_2 mb4">Lorem Ipsum is simply dummy text of the printing</h6>
+                        <p class="p_tag">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+                        </p>
+                    </div>
+                    <div class="detail col-12 col-sm-16 col-md-6">
+                        <div class="heading">
+                            <h1 class="h_tag">
+                                Stats</h1>
+                            <h5 class="h_tag_2">Over All Stats</h5>
+                        </div>
+                        <div class="stats">
+                            <div class="d-flex flex-column">
+                                <h5>15</h5>
+                                <span>Year</span>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <h5>1200</h5>
+                                <span>Happy Customers</span>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <h5>2500</h5>
+                                <span>Products</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_company_team" name="Company Team">
+        <section class="s_outline_company_team th_snippet pt16 pb16">
+            <div class="container">
+                <h2 class="text-center">OUR TEAM</h2>
+                <div class="outline_carousel owl-theme row">
+                    <div class="carousel_item col-2 p-0">
+                        <div class="user_image">
+                            <img class="img img-fluid" src="/web/image/website.s_company_team_image_1"/>
+                        </div>
+                        <div class="user_detail">
+                            <h6 class="h_tag">Tony Fred</h6>
+                            <h5 class="h_tag_2">CEO</h5>
+                        </div>
+                    </div>
+                    <div class="carousel_item col-2 p-0">
+                        <div class="user_image">
+                            <img class="img img-fluid" src="web/image/website.s_company_team_image_2"/>
+                        </div>
+                        <div class="user_detail">
+                            <h6 class="h_tag">Mich Stark</h6>
+                            <h5 class="h_tag_2">COO</h5>
+                        </div>
+                    </div>
+                    <div class="carousel_item col-2 p-0">
+                        <div class="user_image">
+                            <img class="img img-fluid" src="/web/image/website.s_company_team_image_3"/>
+                        </div>
+                        <div class="user_detail">
+                            <h6 class="h_tag">Aline Turner</h6>
+                            <h5 class="h_tag_2">CTO
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel_item col-2 p-0">
+                        <div class="user_image">
+                            <img class="img img-fluid" src="/web/image/website.s_company_team_image_4"/>
+                        </div>
+                        <div class="user_detail">
+                            <h6 class="h_tag">Iris Joe</h6>
+                            <h5 class="h_tag_2">CFO</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_testimonials" name="Testimonials 1">
+        <section class="s_outline_testimonials th_snippet pt16 pb16">
+            <div class="s_div">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 s_col_no_bgcolor pt24 pb24">
+                            <div class="container text-center">
+                                <h1 style="color:#fff;">Testimonials</h1>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div id="tab_1" class="container tab-pane active">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-lg-8">
+                                                <h4 style="color:#fff;" class="pt8 pb8 text-uppercase">TONY FRED, CEO</h4>
+                                                <p style="color:#fff;">
+                                                    Founder and chief visionary, Tony is the driving force behind Company. He loves to keep his hands full by participating in the development of the software, marketing and the Customer Experience strategies.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tab_2" class="container tab-pane fade">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-lg-8">
+                                                <h4 style="color:#fff;" class="pt8 pb8 text-uppercase">MICH STARK, COO</h4>
+                                                <p style="color:#fff;">
+                                                    Mich loves taking on challenges. With his multi-year experience as Commercial Director in the software industry, Mich has helped Company to get where it is today. Mich is among the best minds.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tab_3" class="container tab-pane fade">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-lg-8">
+                                                <h4 style="color:#fff;" class="pt8 pb8 text-uppercase">ALINE TURNER, CTO</h4>
+                                                <p style="color:#fff;">
+                                                    Aline is one of the iconic person in life who can say she loves what she does. She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tab_4" class="container tab-pane fade">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-lg-8">
+                                                <h4 style="color:#fff;" class="pt8 pb8 text-uppercase">IRIS JOE, CTO</h4>
+                                                <p style="color:#fff;">
+                                                    Iris, with her international experience, helps us easily understand the numbers and improves them. She is determined to drive success and delivers her professional acumen to bring Company at the next level.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs d-flex justify-content-center" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#tab_1">
+                                            <img alt="Company team" src="/web/image/website.s_company_team_image_1" class="img img-fluid rounded-circle d-block mx-auto shadow"/>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab_2">
+                                            <img alt="Company team" src="/web/image/website.s_company_team_image_2" class="img img-fluid rounded-circle d-block mx-auto shadow"/>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab_3">
+                                            <img alt="Company team" src="/web/image/website.s_company_team_image_3" class="img img-fluid rounded-circle d-block mx-auto shadow"/>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab_4">
+                                            <img alt="Company team" src="/web/image/website.s_company_team_image_4" class="img img-fluid rounded-circle d-block mx-auto shadow"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_testimonial_carousel" name="Testimonials 2">
+        <section class="s_outline_testimonial_carousel th_snippet pt16 pb16" style="background: #F8F8F8;">
+            <div class="container">
+                <h2 class="text-center">
+                    Testimonial
+                </h2>
+                <div id="myTestimonialCarousel" class="s_carousel_default carousel slide pt16 pb16" data-interval="10000">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myQuoteCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myQuoteCarousel" data-slide-to="1"></li>
+                        <li data-target="#myQuoteCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Content -->
+                    <div class="carousel-inner">
+                        <!-- #01 -->
+                        <div class="carousel-item active" data-name="Slide">
+                            <div class="row">
+                                <div class="col-lg-8 offset-lg-2">
+                                    <div class="user_details">
+                                        <span class="user_image">
+                                            <img class="img img-fluid" src="/web/image/website.s_company_team_image_2"/>
+                                        </span>
+                                        <div class="user_name">
+                                            <h6 class="mb4 h_tag">john Doe</h6>
+                                            <h5 class="mb4 h_tag_2">Trainer</h5>
+                                        </div>
+                                        <p class="p_tag">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. when
+                                            an unknown printer took a galley of type and scrambled it to make a type specimen book. when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #02 -->
+                        <div class="carousel-item" data-name="Slide">
+                            <div class="row content">
+                                <div class="col-lg-8 offset-lg-2">
+                                    <div class="user_details">
+                                        <span class="user_image">
+                                            <img class="img img-fluid" src="/web/image/website.s_company_team_image_4"/>
+                                        </span>
+                                        <div class="user_name">
+                                            <h6 class="mb4 h_tag">Iris Joe</h6>
+                                            <h5 class="mb4 h_tag_2">CFO</h5>
+                                        </div>
+                                        <p class="p_tag">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. when
+                                            an unknown printer took a galley of type and scrambled it to make a type specimen book. when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <div class="carousel-control-prev" data-target="#myQuoteCarousel" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                        <span class="carousel-control-prev-icon"/>
+                        <span class="sr-only">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" data-target="#myQuoteCarousel" data-slide="next" role="img" aria-label="Next" title="Next">
+                        <span class="carousel-control-next-icon"/>
+                        <span class="sr-only">Next</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_client_word" name="Client Words">
+        <section class="s_outline_client_word">
+            <div class="container">
+                <h1>Our Clients Words</h1>
+                <p class="m-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+                <div>
+                    <div id="myCarousel" class="s_carousel s_carousel_default carousel slide" data-interval="10000">
+                        <div class="carousel-inner">
+                            <t t-foreach="range(2)" t-as="item">
+                                <div t-attf-class="carousel-item #{'active' if item_index==0 else ''} oe_custom_bg oe_img_bg" data-name="Slide">
+                                    <div class="item">
+                                        <div class="img">
+                                            <div>
+                                                <img t-att-src="'/theme_outline/static/src/img/snippet/team-%s.png' % (item_index + 3)" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                                            </div>
+                                            <div class="text">
+                                                <p>Dummy Name</p>
+                                                <h5>Designation</h5>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                                the industry's standard dummy text ever since the 1500s,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                        <div class="carousel-control-prev" data-target="#myCarousel" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                            <span class="carousel-control-prev-icon"/>
+                            <span class="sr-only">Previous</span>
+                        </div>
+                        <div class="carousel-control-next" data-target="#myCarousel" data-slide="next" role="img" aria-label="Next" title="Next">
+                            <span class="carousel-control-next-icon"/>
+                            <span class="sr-only">Next</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_banner_product_1" name="Home Banner 1">
+        <section id="s_outline_banner_product_1" style="background-color: #E9E9E9;">
+            <section class="item semi-item oe_img_bg oe_custom_bg" style="background-image: url('/theme_outline/static/src/img/snippet/home_banne.jpg');">
+                <div class="item-div">
+                    <div>
+                        <a href="/shop">
+                            Best Offers for Today</a>
+                        <div class="contain">
+                            <h1>Best Collections For Your Home and Office is Here</h1>
+                            <p>Only for Today</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="absolute-item container">
+                <h3>Best Collections</h3>
+                <div class="hr"><div/></div>
+                <div class="name-product">
+                    <section class="semi-item oe_img_bg oe_custom_bg" style="background-image: url('/theme_outline/static/src/img/snippet/snippet1_img1.jpg');"/>
+                    <h3>Collection 1</h3>
+                </div>
+                <div class="name-product">
+                    <section class="semi-item oe_img_bg oe_custom_bg" style="background-image: url('/theme_outline/static/src/img/snippet/snippet1_img2.jpg');"/>
+                    <h3>Collection 2</h3>
+                </div>
+                <div class="name-product">
+                    <section class="semi-item oe_img_bg oe_custom_bg" style="background-image: url('/theme_outline/static/src/img/snippet/snippet1_img3.jpg');"/>
+                    <h3>Collection 3</h3>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_banner_product_2" name="Home Banner 2">
+        <section class="s_outline_banner_product_2 s_cover parallax s_parallax_is_fixed bg-black-50 w-100" data-scroll-background-ratio="1" style="padding-top:300px;">
+            <span class="s_parallax_bg oe_img_bg oe_custom_bg animated zoom m-auto" style="background-image: url('/theme_outline/static/src/img/snippet/home_banne.jpg'); background-position: 50% 0;"/>
+            <div class="container">
+                <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title" data-name="Title">
+                        <h1 class="s_title_thin" style="font-size: 62px;">Catchy Headline</h1>
+                    </div>
+                    <div class="col-lg-12 s_btn pt16 pb16" data-name="Buttons">
+                        <a href="/shop" class="btn btn-primary">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="outline_grid_view_1" name="Image Grid 1">
+        <section class="s_outline_image_grid">
+            <div class="item_1 hover">
+                <img src="/theme_outline/static/src/img/snippet/snippet1_img3.jpg" alt="left image"/>
+            </div>
+            <div class="item_2">
+                <div class="hover">
+                    <img src="/theme_outline/static/src/img/snippet/snippet1_img2.jpg" alt="left image"/>
+                </div>
+                <div class="hover">
+                    <img src="/theme_outline/static/src/img/snippet/snippet1_img1.jpg" alt="left image"/>
+                </div>
+            </div>
+            <div class="item-child-2 hover">
+                <img src="/theme_outline/static/src/img/snippet/mm2_1.jpg" alt="left image"/>
+            </div>
+        </section>
+    </template>
+    <template id="outline_grip_view_2" name="Image Grid 2">
+        <section class="outline_grip_view_2 pt16 pb16">
+            <h1 class="h_tag">Best Collections</h1>
+            <div class="items row super_row m-0">
+                <div class="item col-6 col-sm-3 super_row p-0" t-foreach="range(4)" t-as="item">
+                    <div class="content">
+                        <a class="a_tag" href="#">See More</a>
+                        <img src="/theme_outline/static/src/img/snippet/snippet1_img1.jpg" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="outline_grip_view_3" name="Image Grid 3">
+        <section id="grip_view_3" style="background-color: white;">
+            <div  class="container">
+                <t t-foreach="range(3)" t-as="i">
+                    <section class="semi-item oe_img_bg oe_custom_bg" style="background-image: url('/theme_outline/static/src/img/snippet/snippet1_img1.jpg');">
+                        <div>
+                            <div>
+                                <a href="/shop"><i class="fa fa-shopping-cart"/></a>
+                                <div class="text">
+                                    <h4>
+                                        <strong>Collection</strong>
+                                    </h4>
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </t>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_grid_view_4" name="Image Grid 4">
+        <section id="grip_view_4">
+            <t t-foreach="['background-color:rgb(237, 105, 103)','background-color:rgb(254, 201, 107)','background-color:rgb(64, 130, 146)','background-color:rgb(92, 102, 104)']" t-as="background">
+                <section class="item" t-att-style="background">
+                    <div class="contain">
+                        <div clas="icon"><span class="fa fa-shopping-cart"/></div>
+                        <h3>Collections</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                </section>
+            </t>
+        </section>
+    </template>
+    <template id="s_outline_grid_view_5" name="Image Grid 5">
+        <section class="s_outline_grid_view_5 pb16 pt16" >
+            <div class="container">
+                <h1 class="heading text-center mb16">Best Collections</h1>
+                <div class="super_row row m-0">
+                    <div class="super_col col-12 col-md-4" t-foreach="range(3)" t-as="item">
+                        <div class="item">
+                            <img src="/theme_outline/static/src/img/snippet/snippet6_img1.jpg" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                            <div class="content">
+                                <h4 class="h_tag">Sports</h4>
+                                <p>A huge collection of Sofa, Table, Chairs and House equipments</p>
+                                <div class="btns_div">
+                                    <a href="/" class="btn btn-defalut">Sofa</a>
+                                    <a href="/" class="btn btn-defalut">Chairs</a>
+                                    <a href="/" class="btn btn-defalut">Tables</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_grid_view_6" name="Image Grid 6">
+        <section class="s_outline_grid_view_6 pb16 pt16">
+            <div class="container">
+                <div class="row super_row">
+                    <div class="col-sm-4 col-12 super_col" t-foreach="range(3)" t-as="item">
+                        <div class="item">
+                            <img src="/theme_outline/static/src/img/snippet/snippet6_img1.jpg" class="img img-fluid mx-auto" alt="Odoo • Text and Image"/>
+                            <div class="header_prod_hover">
+                                <div class="all_text">
+                                    <h3 class="t_tag">Product Name</h3>
+                                    <p class="p_tag">A short product description that suits it best</p>
+                                </div>
+                                <svg id="rectangle_product_hover">
+                                    <rect id="product_hover_rect"></rect>
+                                </svg>
+                            </div>
+                            <a class="a_tag btn btn-primary" hrf="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_outline_grid_view_7" name="Image Grid 7">
+        <section class="s_outline_grid_view_7 pt16 pb16">
+            <div class="container">
+                <div class="heading">
+                    <div class="row">
+                        <div class="col-7">
+                            <h3 class="h_tag">NEW ARRIVALS</h3>
+                        </div>
+                        <div class="col-5" style="text-align:right;">
+                            <a class="a_tag" href="/shop">View all</a>
+                        </div>
+                        <div class="col-12">
+                            <p>Some quick example text to build on the card title and make</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items row super_row">
+                    <div class="col-12 col-sm-6 col-md-3 super_col" t-foreach="range(0,4)" t-as="item">
+                        <div class="item card h-100">
+                            <img class="card-img-top" src="/theme_outline/static/src/img/snippet/snippet1_img5.jpg"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <!-- Entry -->
+    <template id="common_website_snippets" inherit_id="website.snippets" name="Theme Common Website Snippets Entry">
+        <xpath expr="//div[@id='o_scroll']//div[@id='snippet_structure']" position="before">
+            <div id="snippet_theme_outline" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-th-large"/>
+                    Theme Snippets
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="theme_outline.s_outline_page_title"           t-thumbnail="/website/static/src/img/snippets_thumbs/s_title.png"/>
+                    <t t-snippet="theme_outline.s_outline_page_title_paralex"   t-thumbnail="/website/static/src/img/snippets_thumbs/s_title.png"/>
+                    <t t-snippet="theme_outline.s_outline_full_image_block"     t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.png"/>
+                    <t t-snippet="theme_outline.s_outline_full_image_paralex"   t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.png"/>
+                    <t t-snippet="theme_outline.s_outline_banner_product_1"     t-thumbnail="/website/static/src/img/snippets_thumbs/s_picture.png"/>
+                    <t t-snippet="theme_outline.s_outline_banner_product_2"     t-thumbnail="/website/static/src/img/snippets_thumbs/s_picture.png"/>
+
+
+                    <t t-snippet="theme_outline.s_outline_gallery_type_1"       t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+                    <t t-snippet="theme_outline.outline_grid_view_1"            t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+                    <t t-snippet="theme_outline.outline_grip_view_2"            t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+                    <t t-snippet="theme_outline.outline_grip_view_3"            t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+                    <t t-snippet="theme_outline.s_outline_grid_view_4"          t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+                    <t t-snippet="theme_outline.s_outline_grid_view_5"          t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+                    <t t-snippet="theme_outline.s_outline_grid_view_6"          t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+                    <t t-snippet="theme_outline.s_outline_grid_view_7"          t-thumbnail="/website_blog/static/src/img/s_latest_posts_big_picture.jpg"/>
+
+                    <t t-snippet="theme_outline.s_outline_shopping_display"     t-thumbnail="/website/static/src/img/snippets_thumbs/s_three_columns.png"/>
+                    <t t-snippet="theme_outline.s_outline_shopping_category"    t-thumbnail="/website/static/src/img/snippets_thumbs/s_three_columns.png"/>
+                    <t t-snippet="theme_outline.s_outline_shop_now"             t-thumbnail="/website/static/src/img/snippets_thumbs/s_three_columns.png"/>
+
+                    <t t-snippet="theme_outline.s_outline_blog_snippet"         t-thumbnail="/website_blog/static/src/img/s_latest_posts.jpg"/>
+                    <t t-snippet="theme_outline.s_outline_blog_snippet_2"       t-thumbnail="/website_blog/static/src/img/s_latest_posts.jpg"/>
+                    
+                    <t t-snippet="theme_outline.s_outline_text_block"           t-thumbnail="/website/static/src/img/snippets_thumbs/s_quotes_carousel.png"/>
+
+                    <t t-snippet="theme_outline.s_outline_testimonial_carousel" t-thumbnail="/website/static/src/img/snippets_thumbs/s_products_recently_viewed.png"/>
+                    <t t-snippet="theme_outline.s_outline_testimonials"         t-thumbnail="/website/static/src/img/snippets_thumbs/s_faq.png"/>
+
+                    <t t-snippet="theme_outline.s_outline_banner_newsletter"    t-thumbnail="/website/static/src/img/snippets_thumbs/newsletter_subscribe_popup.png"/>
+
+                    <t t-snippet="theme_outline.s_outline_company_stats"        t-thumbnail="/website/static/src/img/snippets_thumbs/s_alert.png"/>
+
+                    <t t-snippet="theme_outline.s_outline_company_team"         t-thumbnail="/website/static/src/img/snippets_thumbs/s_products_recently_viewed.png"/>
+                    <t t-snippet="theme_outline.s_outline_client_word"          t-thumbnail="/website/static/src/img/snippets_thumbs/s_quotes_carousel.png"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

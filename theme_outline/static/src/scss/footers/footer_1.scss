@@ -1,0 +1,80 @@
+#footer_main{
+    .static_menu_1,
+    .static_menu_2,
+    .static_menu_3{
+        ul>li{
+            padding: 5px 0 5px 15px;
+            &>a{
+                color: #333333;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .f_address{
+        ul>li{
+            padding: 5px 0;
+        }
+        .share_icons{
+            margin-left: -5px;
+            a.btn-link{
+                padding: 5px;
+            }
+            .fa{
+                font-size: 16px !important;
+            }
+        }
+    }
+    #footer_middle{
+        .static_menu_inline{
+            text-align: center;
+            ul{margin: 0;}
+            ul>li{
+                padding: 5px;
+            }
+            a{
+                color: #333333;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+    #footer_copyright{
+        padding: 10px;
+        text-align: center;
+    }
+}
+#footer_map_div{
+    iframe{
+        max-width: 95%;
+        border:0;
+        max-height: 130px;
+    }
+}
+
+
+
+
+#footer{
+    .payment_methods{
+        .h_tag{
+            margin-bottom: 10px;
+        }
+        .payment_icon_list{
+            margin: 0;
+            img{
+                max-width: 30px;
+                margin: 4px 0;
+            }
+        }
+    }
+    .js_language_selector{
+        .dropdown-toggle{
+            background-color: #aaaaaa !important;
+            border: 0;
+            border-radius: 0;
+        }
+    }
+}

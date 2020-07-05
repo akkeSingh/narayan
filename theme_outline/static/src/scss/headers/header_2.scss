@@ -1,0 +1,188 @@
+/*================================= Header Style 2 ============================*/
+header{
+	nav.navbar{
+		box-shadow: 0px 0px 4px $border-color;
+		padding: 0;
+		min-height: 40px;
+		#top_menu{
+			width: 100%;
+			&> li > ul.dropdown-menu{
+				border-top: 1px solid #ced4da; /*This color is not used in variables*/
+			}
+			& > li{
+				border-left: 1px solid $border-color;
+				padding: 2px 10px;
+				>a.nav-link{
+					text-transform: uppercase;
+					&.active{
+						color: $primary;
+					}
+				}
+				&:hover > a.nav-link{
+					color: $primary;
+				}
+				@include media-breakpoint-down(sm){
+					border-left:0;
+				}
+			}
+		} 
+	}
+}
+.th_header_top{
+	background-color: $primary;
+	color: white;
+	padding: 5px 0;
+	.th_header_offer_text{
+		font-size: 12px;
+		li {
+			padding: 0 10px;;
+		}
+		ul{margin-bottom: 0;}
+	}
+	.th_header_offer{
+		@include flex_left;
+		@include media-breakpoint-down(sm){
+			display: none;
+		}
+	}
+	.te_login_right{
+		@include flex_right;
+		a.dropdown-toggle{
+			color: white !important;
+		}
+		.th_header_pricelist{
+			.te_currency_name, .te_currency_symbol{
+				font-size: 12px;
+				padding: 0 4px;
+				border:0 !important ;
+			}
+		}
+		.th_header_language{
+			margin-left: 5px;
+			a.dropdown-toggle{
+				font-size: 12px;
+				text-transform: capitalize;
+				border:0 !important ;
+				padding: 0 4px;
+			}
+		}
+		.th_user_account,.th_signin{
+			font-size: 12px;
+			.th_user_account_icon{
+				margin:0 3px;
+			}
+			.fa{
+				color: white;
+			}
+		}
+	}
+	@include media-breakpoint-down(sm){
+		.th_header_language,.th_user_account,.th_signin,.th_header_pricelist{
+			padding: 0 10px;
+		}
+	}
+	
+}
+/*------ Header Offer Text ---------*/
+header.o_header_affix{
+	.navbar{
+		#top_menu_collapse_clone{		
+			&> li{			
+				>a.nav-link{
+					text-transform:uppercase;
+					padding: 0.8rem 0.8rem;
+					@include style(3,3)
+				}
+				>a.nav-link.active{
+					color: $primary;
+				}
+				&:hover >a.nav-link{
+					color: $primary;
+				}
+			}
+		}
+	}
+} 
+/*------- Header Offer Text, Company Logo, Cart Icon, Search Box, Wishlist Icon --------*/
+.th_header_inner{
+	.th_header_inner_right{
+		@include flex-between;
+	}
+	@include media-breakpoint-down(md){
+		.col-lg-6:nth-child(1){
+			width:30%;
+		}
+		.col-lg-6:nth-child(2){
+			width:70%;
+		}
+	}
+	@include media-breakpoint-down(sm){
+		width: 100%;
+		display: inline-block;
+		.col-lg-6:nth-child(1){
+			width:50%;
+		}
+		.col-lg-6:nth-child(2){
+			width:50%;
+		}
+	}
+	@include media-breakpoint-down(xs){
+		.col-lg-6:nth-child(1){
+			width:40%;
+		}
+		.col-lg-6:nth-child(2){
+			width:60%;
+		}
+	}
+	
+}
+/*-------- Search Box -----------*/  
+.th_header_search{
+	display:inline-block;
+	width: 70%;
+	.th_header_srch_icon{
+		display:none;
+	}
+	.th_search_popover{
+		& input.form-contro{
+			border-radius: 30px !important;
+			@include box-shadow(0 1px 5px 0 rgba(32, 33, 36, 0.2));
+		}
+		& button.oe_search_button{
+			@include position(absolute,auto,0px,auto,auto);
+			z-index: 9;
+		}
+	}
+	@include media-breakpoint-down(sm){
+		order: -1;
+		width: auto;
+		.th_header_srch_icon{
+			font-size: 1rem;
+			display:block;
+		}
+		.th_search_popover {
+			opacity: 0;
+			outline:0;
+			width:100%;
+			display: none;
+		}
+		&.active{
+			position: absolute;
+			width: 93%;
+			background: white;
+			z-index: 1;
+			padding: 5px;
+			@include flex_center;
+			.th_header_srch_icon{
+				display: none;
+			}
+			.th_search_popover{
+				opacity:1;
+				width: 100%;
+				z-index: 999;
+				display: block;
+			}
+		}
+	}
+}
+/*------- Header Cart and Wishlist Icon --------*/
