@@ -76,6 +76,8 @@
                                     'views/inventive_common_snippets.xml',
                                     'views/inventive_common_snippet_options.xml',
                                     'views/inventive_mega_menu_snippets.xml',
+                                    'views/pwa.xml',
+
                                 ],
     "demo"                 :    [
                                     # 'data/demo_config.xml',
