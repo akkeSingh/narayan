@@ -49,8 +49,14 @@
 									<t t-esc="offer.min_quantity"/>
 								</td>
 								<td >
-									<span style="font-weight:600;">Unit Price: </span>
-									<span t-esc="product_id.product_tmpl_id._get_combination_info(product_id=product_id.id, add_qty = offer.min_quantity, pricelist=pricelist)['price']" t-options="{'widget': 'monetary', 'display_currency': request.website.currency_id}"/>
+									<div >
+										<span style="font-weight:600;">Unit Price: </span>
+										<span t-esc="product_id.product_tmpl_id._get_combination_info(product_id=product_id.id, add_qty = offer.min_quantity, pricelist=pricelist)['price']" t-options="{'widget': 'monetary', 'display_currency': request.website.currency_id}"/>
+									</div>
+									<div>
+										<span style="font-weight:600;">Total Price: </span>
+										<span t-esc="product_id.product_tmpl_id._get_combination_info(product_id=product_id.id, add_qty = offer.min_quantity, pricelist=pricelist)['price'] * offer.min_quantity" t-options="{'widget': 'monetary', 'display_currency': request.website.currency_id}"/>
+									</div>
 								</td>
 								<td >
 									<t t-if="offer.date_end">
