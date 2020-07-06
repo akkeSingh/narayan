@@ -2,7 +2,7 @@
 <odoo>
     <template id="pwa_manifest_inherit" inherit_id="web.layout" name="PWA Manifest File Inherit">
         <xpath expr="//head" position="inside">
-            <link rel="manifest" href="/manifest.json">
+            <link rel="manifest" href="/manifest.json"/>
         </xpath> 
     </template>
 </odoo>
