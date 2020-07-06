@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<!-- License URL : https://store.webkul.com/license.html/ -->
+<odoo>
+  <!--Headder Cart Icon Templates  -->
+  <template id="header_middle_btns" name="Theme Inventive Support Header Middle Buttons Template">
+      <div class="header_middle_btn">
+          <t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
+              <div id="my_wish" class="btn-group o_wsale_my_wish">
+                  <a href="/shop/wishlist">
+                      <span class="th_icon active">
+                          <span class="th_wish_icon"/>
+                      </span>
+                      <span class="btn">
+                          Wishlist
+                          <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-light"><t t-esc='wishcount'/></sup>
+                      </span>
+                  </a>
+              </div>
+          </t>
+          <div id="my_cart" class="btn-group o_wsale_my_cart">
+              <a href="/shop/cart" class="th_cart_btn">
+                  <span class="th_icon active">
+                      <span class="th_cart_icon"/>
+                  </span>
+                  <span class="btn">
+                      <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+                      Your Cart
+                      <sup t-attf-class="my_cart_quantity o_animate_blink badge badge-light" t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/>
+                  </span>
+              </a>
+          </div>
+          <div id="my_account" class="dropdown btn-group">
+              <span class="dropdown-toggle" data-toggle="dropdown">
+                  <span class="th_icon active">
+                      <span class="th_account_icon"/>
+                  </span>
+                  <span class="btn">Account</span>
+              </span>
+              <div class="th_d_menu dropdown-menu">
+                  <div class="arrow"/>
+                  <div class="dropdown-item" t-if="not user_id._is_public()">
+                      <a href="/my/orders" role="menuitem">Orders</a>
+                  </div>
+                  <div class="dropdown-item product_comp_menu">
+                      <a id="comp_menu_link" role="menuitem">Comparison List
+                          <sup class="product_comp_quantity o_animate_blink badge badge-primary"/>
+                      </a>
+                  </div>
+                  <t t-set="website_sale_pricelists" t-value="website.get_pricelist_available(show_visible=True)"/>
+                  <div t-attf-class="#{website_sale_pricelists and len(website_sale_pricelists)&gt;1 and 'dropdown-submenu' or 'd-none'}">
+                      <a data-toggle="dropdown" class="dropdown-item dropdown-toggle">
+                          Currency
+                      </a>
+                      <div class="dropdown-menu" role="menu">
+                          <t t-set="curr_pl" t-value="website.get_current_pricelist()"/>
+                          <t t-foreach="website_sale_pricelists" t-as="pl">
+                              <a t-att-href="'/shop/change_pricelist/%s' % pl.id" t-attf-class="dropdown-item #{'active' if pl == curr_pl else ''}">
+                                  <span class="switcher_pricelist" t-att-data-pl_id="pl.id" t-esc="pl.name"/>
+                              </a>
+                          </t>
+                      </div>
+                  </div>
+                  <hr style="margin-bottom: .5rem; padding:0;"/>
+                  <div class="dropdown-item d-flex justify-content-between align-items-center" groups="base.group_public">
+                      <t t-set="is_reg_enable" t-value="request.env['ir.config_parameter'].sudo().get_param('auth_signup.invitation_scope') == 'b2c'"/>
+                      <a href="/web/login" role="menuitem"  t-attf-class="btn btn-primary #{'btn-block' if not is_reg_enable else ''}">Sign in</a>
+                      <span t-if='is_reg_enable'> OR </span>
+                      <a t-if='is_reg_enable' href="/web/signup" role="menuitem" class="btn btn-secondary">Register</a>
+                  </div>
+                  <div class="dropdown-item d-flex justify-content-between align-items-center" t-if="not user_id._is_public()">
+                      <a href="/my/home" role="menuitem" class="btn btn-primary">Account</a>
+                      <span> OR </span>
+                      <a href="/web/session/logout?redirect=/" role="menuitem" class="btn btn-secondary">Sign out</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </template>
+  <template id="header_middle_icons" name="Theme Inventive Support Header Middle Icons Template">
+      <div class="header_middle_icons">
+          <t t-if="request.website.viewref('website_sale_wishlist.add_to_wishlist').active">
+              <t t-set='wishcount' t-value="len(request.env['product.wishlist'].current())"/>
+              <span id="my_wish" class="header_icon wish_icon o_wsale_my_wish">
+                  <a href="/shop/wishlist">
+                      <i class="fa fa-heart"></i>
+                  </a>
+                  <sup t-attf-class="my_wish_quantity o_animate_blink badge"><t t-esc='wishcount'/></sup>
+              </span>
+          </t>
+          <span id="my_cart" class="header_icon th_cart_icon o_wsale_my_cart">
+              <a href="/shop/cart" class="th_cart_btn"/>
+              <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+              <sup t-attf-class="my_cart_quantity o_animate_blink badge" t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/>
+          </span>
+          <div class="btn-group dropdown">
+              <a id="my_account" class="dropdown-toggle header_icon user" data-toggle="dropdown">
+                  <i class="fa fa-cog"></i>
+              </a>
+              <div class="th_d_menu dropdown-menu">
+                  <div class="arrow"/>
+                  <div class="dropdown-item" t-if="not user_id._is_public()">
+                      <a href="/my/orders" role="menuitem">Orders</a>
+                  </div>
+                  <div class="dropdown-item product_comp_menu">
+                      <a id="comp_menu_link" role="menuitem">Comparison List
+                          <sup class="product_comp_quantity o_animate_blink badge badge-primary"/>
+                      </a>
+                  </div>
+                  <!-- <div id="" class="dropdown-item" > <a href="/shop/wishlist" > <i class="fa fa-heart"/> Wishlist <sup t-attf-class="my_wish_quantity o_animate_blink badge badge-primary"><t t-esc="wishcount"/></sup> </a> </div> -->
+                  <hr style="margin-bottom: .5rem; padding:0;"/>
+                  <div class="dropdown-item d-flex justify-content-between align-items-center" groups="base.group_public">
+                      <t t-set="is_reg_enable" t-value="request.env['ir.config_parameter'].sudo().get_param('auth_signup.invitation_scope') == 'b2c'"/>
+                      <a href="/web/login" role="menuitem" t-attf-class="btn btn-primary #{'btn-block' if not is_reg_enable else ''}">Sign in</a>
+                      <span t-if='is_reg_enable' >OR</span>
+                      <a t-if='is_reg_enable' href="/web/signup" role="menuitem" class="btn btn-secondary">Register</a>
+                  </div>
+                  <div class="dropdown-item d-flex justify-content-between align-items-center" t-if="not user_id._is_public()">
+                      <a href="/my/home" role="menuitem" class="btn btn-primary">Account</a>
+                      <span>OR</span>
+                      <a href="/web/session/logout?redirect=/" role="menuitem" class="btn btn-secondary">Sign out</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </template>
+  <!--............................................................  -->
+  <!-- Cart Popover Inherit .................-->
+  <template id="cart_popover" inherit_id="website_sale.cart_popover" name="Theme Inventive Support Cart Popover">
+        <xpath expr="//div[hasclass('alert-info')]" position="after">
+            <div t-if="not (website_sale_order and website_sale_order.cart_quantity)" class="d-flex align-items-center justify-content-center pt16 pb16" style="order:4;">
+                <a href="/shop" class="btn btn-primary"> Shop Now </a>
+            </div>
+            <h5 class="text-center">
+                You have
+                <b><span t-esc="website_sale_order and website_sale_order.cart_quantity or '0'"/></b>
+                item(s) in your cart
+                <span t-if="not (website_sale_order and website_sale_order.cart_quantity)"> :( </span>
+                <span t-if="website_sale_order and website_sale_order.cart_quantity"> :) </span>
+            </h5>
+
+        </xpath>
+        <xpath expr="//div[hasclass('alert-info')]" position="replace">
+            <div t-if="not website_sale_order or not website_sale_order.website_order_line" class="empty_cart_div">
+                <img src="/theme_inventive/static/src/img/empty-cart-illustration.png" style="float:right"/>
+            </div>
+        </xpath>
+        <!-- Popover remove button -->
+        <xpath expr="//div[hasclass('cart_line')]//div[hasclass('col-9')]" position="inside">
+            <span class="js_delete_product hidden-xs no-decoration btn btn-secondary circle" title="Remove from cart">
+                <span class="remove_button">X</span>
+            </span>
+            <input
+                type="hidden"
+                class="js_quantity form-control quantity"
+                t-att-data-line-id="line.id"
+                t-att-data-product-id="line.product_id.id"
+                t-att-value="int(line.product_uom_qty) == line.product_uom_qty and int(line.product_uom_qty) or line.product_uom_qty"/>
+        </xpath>
+        <!-- cart buttons -->
+        <a role="button" class="btn btn-primary" href="/shop/cart" position="replace">
+            <div class="d-flex align-items-center justify-content-between">
+                <a role="button" class="btn btn-secondary" href="/shop/cart">
+                    View Cart (<t t-esc="website_sale_order.cart_quantity"/>
+                    items)
+                </a>
+                <span>
+                    OR
+                </span>
+                <a role="button" class="btn btn-primary" href="/shop/checkout">
+                    Checkout
+                </a>
+            </div>
+        </a>
+    </template>
+</odoo>

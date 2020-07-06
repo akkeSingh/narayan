@@ -1,0 +1,3015 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_inventive
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-01 21:28+0000\n"
+"PO-Revision-Date: 2020-06-02 03:30-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CO\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_rating_star_template
+msgid "#{empty_star} on 5"
+msgstr "#{empty_star} en 5"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "0.5s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "1.0s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "1.5s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "10s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_per_page_template
+msgid "12 per page"
+msgstr "12 por página"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "1200"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "15"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "2.0s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "2.5s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_per_page_template
+msgid "24 per page"
+msgstr "24 por página"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "2500"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "2s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "3.0s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_per_page_template
+msgid "36 per page"
+msgstr "36 por página"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_404_template
+msgid "404"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "4s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_deal
+msgid "50% OFF"
+msgstr "50% de descuento"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "5s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "6s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "7s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "8s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "9s"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_thanks_page
+msgid "<b>Continue Shopping</b>"
+msgstr "<b>Seguir comprando</b>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_404_template
+msgid "<b>Go Back To Home</b>"
+msgstr "<b>Vuelve a casa</b>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_congratulations_page
+msgid "<b>Order Details</b>"
+msgstr "<b>Detalles del pedido</b>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_website_sale_products_attributes model_terms:theme.ir.ui.view,arch:theme_inventive.th_website_sale_products_categories
+msgid "<i class=\"fa fa-chevron-down\" title=\"Fold\"/>"
+msgstr "<i class=\"fa fa-chevron-down\" title=\"Doblez\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "<i class=\"fa fa-exchange\"/> Compare"
+msgstr "<i class=\"fa fa-exchange\"/> Comparar"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid ""
+"<i class=\"fa fa-fw fa-arrows\"/>\n"
+"                        Choose Root Category"
+msgstr ""
+"<i class=\"fa fa-fw fa-arrows\"/>\n"
+"                        Elegir categoría de raíz"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "<i class=\"fa fa-fw fa-arrows\"/>Background Image Sizing"
+msgstr "<i class=\"fa fa-fw fa-arrows\"/>Tamaño de imagen de fondo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-chevron-circle-right\"/>Navigation"
+msgstr "<i class=\"fa fa-fw fa-chevron-circle-right\"/>Navegación"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-clock-o\"/>Autoplay Timeout"
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/>Tiempo de espera de reproducción automática"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-cogs\"/>Settings"
+msgstr "<i class=\"fa fa-fw fa-cogs\"/>Configuraciones"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-dot-circle-o\"/>Dots"
+msgstr "<i class=\"fa fa-fw fa-dot-circle-o\"/>Puntos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-magic\"/> Styles"
+msgstr "<i class=\"fa fa-fw fa-magic\"/> Estilos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options
+msgid "<i class=\"fa fa-fw fa-magic\"/>Design Of Hover"
+msgstr "<i class=\"fa fa-fw fa-magic\"/>Diseño de Planeo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "<i class=\"fa fa-fw fa-magic\"/>Menu Column Styles"
+msgstr "<i class=\"fa fa-fw fa-magic\"/>Estilos de columna de menú"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "<i class=\"fa fa-fw fa-picture-o\"/>Background Image"
+msgstr "<i class=\"fa fa-fw fa-picture-o\"/>Imagen de fondo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_shop_now_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_category_options model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_display_options
+msgid "<i class=\"fa fa-fw fa-picture-o\"/>Change Image"
+msgstr "<i class=\"fa fa-fw fa-picture-o\"/>Cambiar imagen"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-play\"/>True"
+msgstr "<i class=\"fa fa-fw fa-play\"/>Cierto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-play-circle\"/>Autoplay"
+msgstr "<i class=\"fa fa-fw fa-play-circle\"/>Auto-reproducción"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-plus-circle\"/>Add Slide"
+msgstr "<i class=\"fa fa-fw fa-plus-circle\"/>Añadir diapositiva"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-repeat\"/>Repete slides"
+msgstr "<i class=\"fa fa-fw fa-repeat\"/>Repetir diapositivas"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-stop\"/>False"
+msgstr "<i class=\"fa fa-fw fa-stop\"/>Falso"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-tachometer\"/>Slide Shifting Speed"
+msgstr "<i class=\"fa fa-fw fa-tachometer\"/>Velocidad de desplazamiento de diapositiva"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-television\"/>Animate In"
+msgstr "<i class=\"fa fa-fw fa-television\"/>Animar en"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-television\"/>Animate Out"
+msgstr "<i class=\"fa fa-fw fa-television\"/>Animar fuera"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "<i class=\"fa fa-fw fa-trash-o\"/>Remove Slide"
+msgstr "<i class=\"fa fa-fw fa-trash-o\"/>Eliminar diapositiva"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_portal_page
+msgid "<i class=\"fa fa-pencil\"/> Edit"
+msgstr "<i class=\"fa fa-pencil\"/> Editar"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns
+msgid ""
+"<i class=\"fa fa-plus-circle\"/>\n"
+"                                Add a language..."
+msgstr ""
+"<i class=\"fa fa-plus-circle\"/>\n"
+"                                Añadir un idioma..."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_header_language_drop_down
+msgid ""
+"<i class=\"fa fa-plus-circle\"/>\n"
+"                    Add a language..."
+msgstr ""
+"<i class=\"fa fa-plus-circle\"/>\n"
+"                    Añadir un idioma..."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_rating_star_template
+msgid "<i class=\"fa fa-star\" role=\"img\" aria-label=\"One star\" title=\"One star\"/>"
+msgstr "<i class=\"fa fa-star\" role=\"img\" aria-label=\"Una estrella\" title=\"Una estrella\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_rating_star_template
+msgid "<i class=\"fa fa-star-half-o\" role=\"img\" aria-label=\"Half a star\" title=\"Half a star\"/>"
+msgstr "<i class=\"fa fa-star-half-o\" role=\"img\" aria-label=\"Media estrella\" title=\"Media estrella\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_common_website_snippets
+msgid ""
+"<i class=\"fa fa-th-large\"/>\n"
+"                    Inventive Snippets"
+msgstr ""
+"<i class=\"fa fa-th-large\"/>\n"
+"                    Fragmentos inventivos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_1 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_8
+msgid ""
+"<span class=\" d-none menu_template\">theme_inventive.th_mega_menu_1_content</span>\n"
+"                        <span class=\"d-none category_id\">0</span>"
+msgstr ""
+"<span class=\" d-none menu_template\">theme_inventive.th_mega_menu_1_content</span>\n"
+"                        <span class=\"d-none category_id\">0</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_2
+msgid ""
+"<span class=\" d-none menu_template\">theme_inventive.th_mega_menu_2_content</span>\n"
+"                        <span class=\"d-none category_id\">0</span>"
+msgstr ""
+"<span class=\" d-none menu_template\">theme_inventive.th_mega_menu_2_content</span>\n"
+"                        <span class=\"d-none category_id\">0</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_4
+msgid ""
+"<span class=\" d-none menu_template\">theme_inventive.th_mega_menu_4_content</span>\n"
+"                    <span class=\"d-none category_id\">0</span>\n"
+"                    <span class=\"d-none type\">tabs</span>"
+msgstr ""
+"<span class=\" d-none menu_template\">theme_inventive.th_mega_menu_4_content</span>\n"
+"                    <span class=\"d-none category_id\">0</span>\n"
+"                    <span class=\"d-none type\">pestañas</span>"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid ""
+"<span class=\"appName\">\n"
+"                                <b>Theme Inventive</b>\n"
+"                            </span>"
+msgstr ""
+"<span class=\"appName\">\n"
+"                                <b>Tema inventivo</b>\n"
+"                            </span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_filters_template
+msgid ""
+"<span class=\"att_name\">Category</span>\n"
+"                                <span class=\"separator\">:</span>"
+msgstr ""
+"<span class=\"att_name\">Categoría</span>\n"
+"                                <span class=\"separator\">:</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_filters_template
+msgid ""
+"<span class=\"att_name\">Price</span>\n"
+"                                <span class=\"separator\">:</span>"
+msgstr ""
+"<span class=\"att_name\">Precio</span>\n"
+"                                <span class=\"separator\">:</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_filters_template
+msgid ""
+"<span class=\"att_name\">Search</span>\n"
+"                                <span class=\"separator\">:</span>"
+msgstr ""
+"<span class=\"att_name\">Buscar</span>\n"
+"                                <span class=\"separator\">:</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                            <span class=\"sr-only\">Next</span>"
+msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                            <span class=\"sr-only\">Próximo</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                        <span class=\"sr-only\">Next</span>"
+msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"                        <span class=\"sr-only\">Próximo</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.carousel_common_elements
+msgid ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"            <span class=\"sr-only\">Next</span>"
+msgstr ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"            <span class=\"sr-only\">Próximo</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                            <span class=\"sr-only\">Previous</span>"
+msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                            <span class=\"sr-only\">Previo</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                        <span class=\"sr-only\">Previous</span>"
+msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"                        <span class=\"sr-only\">Previo</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.carousel_common_elements
+msgid ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"            <span class=\"sr-only\">Previous</span>"
+msgstr ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"            <span class=\"sr-only\">Previo</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "<span class=\"d-inline d-md-none\">Sort by:</span>"
+msgstr "<span class=\"d-inline d-md-none\">Ordenar por:</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid ""
+"<span class=\"d-inline d-md-none\">Sort by:</span>\n"
+"                        <span class=\"d-none d-md-inline\">Relevance</span>"
+msgstr ""
+"<span class=\"d-inline d-md-none\">Ordenar por:</span>\n"
+"                        <span class=\"d-none d-md-inline\">Relevancia</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_3
+msgid ""
+"<span class=\"d-none category_id\">0</span>\n"
+"                        <span class=\" d-none menu_template\">theme_inventive.th_mega_menu_3_content</span>"
+msgstr ""
+"<span class=\"d-none category_id\">0</span>\n"
+"                        <span class=\" d-none menu_template\">theme_inventive.th_mega_menu_3_content</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_header_pricelist_drop_down
+msgid ""
+"<span class=\"d-none d-lg-inline\">Currency:\n"
+"                </span>"
+msgstr ""
+"<span class=\"d-none d-lg-inline\">Moneda:\n"
+"                </span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_header_language_drop_down
+msgid "<span class=\"d-none d-lg-inline\">Language:</span>"
+msgstr "<span class=\"d-none d-lg-inline\">Idioma:</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid ""
+"<span class=\"d-none d-md-inline\">DISCUSSION &amp; </span>\n"
+"                                RATING"
+msgstr ""
+"<span class=\"d-none d-md-inline\">DISCUSIÓN&amp; </span>\n"
+"                                VALUACIÓN"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid ""
+"<span class=\"d-none d-md-inline\">ITEM </span>\n"
+"                                DETAILS"
+msgstr ""
+"<span class=\"d-none d-md-inline\">ARTICULO</span>\n"
+"                                DETALLES"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid ""
+"<span class=\"d-none d-md-inline\">PRODUCT </span>\n"
+"                                DESCRIPTION"
+msgstr ""
+"<span class=\"d-none d-md-inline\">PRODUCTO </span>\n"
+"                                DESCRIPCION"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_per_page_template
+msgid "<span class=\"d-none d-md-inline\">Product Per Page</span>"
+msgstr "<span class=\"d-none d-md-inline\">Producto por página</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "<span class=\"d-none d-md-inline\">Sort by:</span>"
+msgstr "<span class=\"d-none d-md-inline\">Ordenado por:</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit
+msgid ""
+"<span class=\"d-none d-md-inline-block\">Continue Shopping</span>\n"
+"                <span class=\"d-md-none d-inline-block\">Continue</span>"
+msgstr ""
+"<span class=\"d-none d-md-inline-block\">Seguir comprando</span>\n"
+"                <span class=\"d-md-none d-inline-block\">Seguir</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns
+msgid ""
+"<span class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n"
+"                    <span class=\"th_icon active\">\n"
+"                        <span class=\"th_account_icon\"/>\n"
+"                    </span>\n"
+"                    <span class=\"btn\">Account</span>\n"
+"                </span>"
+msgstr ""
+"<span class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n"
+"                    <span class=\"th_icon active\">\n"
+"                        <span class=\"th_account_icon\"/>\n"
+"                    </span>\n"
+"                    <span class=\"btn\">Cuenta</span>\n"
+"                </span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.product_add_to_compare
+msgid ""
+"<span class=\"fa fa-exchange\"/>\n"
+"                 <span class=\"text\">Add To Compare</span>"
+msgstr ""
+"<span class=\"fa fa-exchange\"/>\n"
+"                 <span class=\"text\">Añadir a comparar</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_dynamic_tab_snippet_products model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_item_as_extra_template
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.product_add_to_wishlist
+msgid "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/>"
+msgstr "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Añadir a la lista de deseos\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_category
+msgid ""
+"<span class=\"heading\">Bags &amp; Jackets\n"
+"                                </span>\n"
+"                                <span class=\"subheading\">Complete the look with Classic Bags</span>"
+msgstr ""
+"<span class=\"heading\">Pantalones&amp; Chaquetas\n"
+"                                </span>\n"
+"                                <span class=\"subheading\">Completa el look con bolsos clásicos</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_products_add_to_cart_inherit
+msgid ""
+"<span class=\"icon fa fa-shopping-cart\"/>\n"
+"                    <span class=\"text \">Add To Cart</span>"
+msgstr ""
+"<span class=\"icon fa fa-shopping-cart\"/>\n"
+"                    <span class=\"text \">Añadir al carrito</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover
+msgid ""
+"<span class=\"js_delete_product hidden-xs no-decoration btn btn-secondary circle\" title=\"Remove from cart\">\n"
+"                <span class=\"remove_button\">X</span>\n"
+"            </span>"
+msgstr ""
+"<span class=\"js_delete_product hidden-xs no-decoration btn btn-secondary circle\" title=\"Eliminar del carrito\">\n"
+"                <span class=\"remove_button\">X</span>\n"
+"            </span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_7
+msgid "<span class=\"m_text d-block text-center\">Menu Category</span>"
+msgstr "<span class=\"m_text d-block text-center\">Categoría de menú</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_page_title
+msgid "<span class=\"page_strip_text\" style=\"font-size:1.5rem; color:#FFF;\">Show Page</span>"
+msgstr "<span class=\"page_strip_text\" style=\"font-size:1.5rem; color:#FFF;\">Mostrar página</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_dynamic_tab_snippet_products model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_item_as_extra_template
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit
+msgid "<span class=\"text \">Add To Cart</span>"
+msgstr "<span class=\"text \">Añadir al carrito</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_scroll_to_top_btn
+msgid "<span id=\"th_scroll_to_top_btn\" class=\"btn\" title=\"Go to top\"><i class=\"fa fa-arrow-up\"/></span>"
+msgstr "<span id=\"th_scroll_to_top_btn\" class=\"btn\" title=\"Ve arriba\"><i class=\"fa fa-arrow-up\"/></span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid ""
+"<span role=\"button\" class=\"btn\">\n"
+"                               <span class=\"fa fa-filter\"/>\n"
+"                               <span class=\"text\">Filters</span>\n"
+"                            </span>"
+msgstr ""
+"<span role=\"button\" class=\"btn\">\n"
+"                               <span class=\"fa fa-filter\"/>\n"
+"                               <span class=\"text\">Filtros</span>\n"
+"                            </span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_404_template
+msgid "<span style=\"display:inline-block;\"> We were unable to find what you were looking for</span>"
+msgstr "<span style=\"display:inline-block;\"> No pudimos encontrar lo que estabas buscando</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_icons
+msgid ""
+"<span>\n"
+"                            OR</span>"
+msgstr ""
+"<span>\n"
+"                            O</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover
+msgid ""
+"<span>\n"
+"                    OR\n"
+"                </span>"
+msgstr ""
+"<span>\n"
+"                    O\n"
+"                </span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_congratulations_page
+msgid "<span> Your order have been successfully placed. You can view your order details by clicking on the button below</span>"
+msgstr "<span> Su pedido ha sido realizado con éxito. Puede ver los detalles de su pedido haciendo clic en el botón a continuación</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "<span><b>or</b></span>"
+msgstr "<span><b>o</b></span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_footer_copyright
+msgid "<span>Copyright &amp;copy;</span>"
+msgstr "<span>Copyright &amp;copy;</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "<span>Happy Customers</span>"
+msgstr "<span>Clientes felices</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_2
+msgid "<span>Our Products</span>"
+msgstr "<span>Nuestros productos</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_congratulations_page
+msgid "<span>Please click the below button to go back to check Order Details. </span>"
+msgstr "<span>Haga clic en el botón a continuación para volver a verificar los detalles del pedido. </span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_thanks_page
+msgid "<span>Please click the button below and enjoy the Shopping.</span>"
+msgstr "<span>Haga clic en el botón de abajo y disfrute de las compras.</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "<span>Products</span>"
+msgstr "<span>Productos</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "<span>Ratings </span>)"
+msgstr "<span>calificaciones </span>)"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "<span>Relevance</span>"
+msgstr "<span>Relevancia</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_news_letter
+msgid "<span>SUBSCRIBE FOR</span> NEWSLETTER"
+msgstr "<span>SUBSCRIBETE AL</span> BOLETIN INFORMATIVO"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_thanks_page
+msgid "<span>Thank you for Register with us,</span>"
+msgstr "<span>Gracias por registrarse con nosotros,</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_3
+msgid "<span>View full product details  </span><i class=\"fa fa-chevron-circle-right\"/>"
+msgstr "<span>Ver detalles completos del producto  </span><i class=\"fa fa-chevron-circle-right\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "<span>Year</span>"
+msgstr "<span>Año</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_website_sale_products_categories
+msgid "<strong>Categories</strong>"
+msgstr "<strong>Categorias</strong>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_3
+msgid "<strong>Collection</strong>"
+msgstr "<strong>Colección</strong>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_website_sale_products_attributes
+msgid "<strong>Price</strong>"
+msgstr "<strong>Precio</strong>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_text_block
+msgid ""
+"A great way to catch your reader's attention is to tell a story. Everything you consider writing can be told as a story. Great stories have personality.Consider telling a great story that provides personality. Writing a story "
+"with personality for\n"
+"                                potential clients will assists with making a relationship connection. This shows up in small quirks like word choices or phrases. Write from your point of view, not from someone else's experience."
+msgstr ""
+"Una excelente manera de captar la atención de su lector es contar una historia. Todo lo que consideres escribir se puede contar como una historia. Las grandes historias tienen personalidad. Considere contar una gran historia "
+"que brinde personalidad. Escribir una historia con personalidad para clientes potenciales ayudará a establecer una conexión de relación. Esto aparece en pequeños caprichos, como la elección de palabras o frases. Escriba desde "
+"su punto de vista, no desde la experiencia de otra persona."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_6
+msgid "A huge collection of running shoes and sports equipments"
+msgstr "Una gran colección de zapatillas y equipamiento deportivo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_7
+msgid "A short product description that suits it best"
+msgstr "Una breve descripción del producto que más le convenga"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_1
+msgid "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart."
+msgstr "Una maravillosa serenidad se ha apoderado de toda mi alma, como estas dulces mañanas de primavera que disfruto con todo mi corazón."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "ABOUT US"
+msgstr "SOBRE NOSOTROS"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "ALINE TURNER, CTO"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_1 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_2
+msgid "ALL"
+msgstr "TODOS"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_aboutus_page
+msgid "About Us"
+msgstr "Sobre Nosotros"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_4
+msgid "About us"
+msgstr "Sobre nosotros"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_extra_view_btns
+msgid "Accesories Quick View"
+msgstr "Vista rápida de accesorios"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_accessory_data_template
+msgid "Accessory Products"
+msgstr "Productos accesorios"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "Accessory Products:"
+msgstr "Productos accesorios:"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_icons
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_products_item_inherit
+msgid "Add one"
+msgstr "Agrega uno"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_1
+msgid "Add to Cart"
+msgstr "Añadir al carrito"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_dynamic_tab_snippet_products model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_item_as_extra_template
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.product_add_to_wishlist
+msgid "Add to Wishlist"
+msgstr "Añadir a la lista de deseos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.product_add_to_wishlist
+msgid "Added to Wishlist"
+msgstr "Añadido a la lista de deseos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_address_page
+msgid "Address"
+msgstr "Dirección"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_home_inherit
+msgid "Address Book"
+msgstr "Directorio"
+
+#. module: theme_inventive
+#: model:ir.model,name:theme_inventive.model_res_config_settings
+msgid "Affiliate Configuration Model"
+msgstr "Modelo de configuración de afiliados"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team
+msgid "Aline Turner"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "Aline is one of the iconic person in life who can say she loves what she does. She mentors 100+ in-house developers and looks after the community of over thousands developers."
+msgstr "Aline es una de las personas icónicas en la vida que puede decir que ama lo que hace. Ella es mentora de más de 100 desarrolladores internos y cuida a la comunidad de más de miles de desarrolladores."
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__tabs_product_type__all
+msgid "All"
+msgstr "Todos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "All Categories"
+msgstr "Todas las categorías"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_website_sale_products_categories
+msgid "All Products"
+msgstr "Todos los Productos"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "All Products will we selected automatically on the basis of Sequence of Product."
+msgstr "Todos los productos serán seleccionados automáticamente según la secuencia del producto."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_extra_view_btns
+msgid "Alternative Products Quick View"
+msgstr "Vista rápida de productos alternativos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "Alternative Products:"
+msgstr "Productos alternativos:"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_alternative_data_template
+msgid "Altrenative Products"
+msgstr "Productos alternativos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_display
+msgid "Apparel"
+msgstr "Vestir"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_coupon_form model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_website_sale_products_attributes
+msgid "Apply"
+msgstr "Aplicar"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__auto_select
+msgid "Auto Products Selection"
+msgstr "Selección automática de productos"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__cron_id
+msgid "Auto Select Cron"
+msgstr "Cron de selección automática"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__avg_rating
+msgid "Average Rating"
+msgstr "Puntuación media"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit
+msgid "Back To Sign In"
+msgstr "Volver a iniciar sesión"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit
+msgid "Back to Login"
+msgstr "Atrás para iniciar sesión"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Background"
+msgstr "Fondo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_6
+msgid "Badminton"
+msgstr "Bádminton"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_category
+msgid "Bags & Jackets"
+msgstr "Bolsos y chaquetas"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_grip_view_2 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_6 model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_bubble_description
+msgid "Best Collections"
+msgstr "Mejores colecciones"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_1
+msgid "Best Collections For Men"
+msgstr "Las mejores colecciones para hombres"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_2
+msgid "Best Collections For Men, Women And Kids is Here"
+msgstr "Las mejores colecciones para hombres, mujeres y niños ya están aquí"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_4
+msgid "Best Collections For Men, Women and Kids"
+msgstr "Las mejores colecciones para hombres, mujeres y niños"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_deal
+msgid "Best Offers"
+msgstr "Mejores ofertas"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_2
+msgid "Best Offers for Today"
+msgstr "Las mejores ofertas para hoy"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_display
+msgid "Best Sellers"
+msgstr "Los más vendidos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Block"
+msgstr "Bloquear"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Body"
+msgstr "Cuerpo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Bounce In"
+msgstr "Rebotar en"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "BounceOut"
+msgstr "Rebotar fuera"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Boxed"
+msgstr "En caja"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Bulk Order"
+msgstr "Orden a Granel"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Button"
+msgstr "Botón"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__lazy_loading_options__button
+#: model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__lazy_loading_options__button
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__lazy_loading_options__button
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__lazy_loading_options__button
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__lazy_loading_options__button
+msgid "Button Click"
+msgstr "Clic al Botón"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "CATEGORIES"
+msgstr "CATEGORIAS"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team
+msgid "CEO"
+msgstr "CEO"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid "CFO"
+msgstr "CFO"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team
+msgid "COO"
+msgstr "COO"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team
+msgid "CTO"
+msgstr "CTO"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "CUSTOMER SERVICE"
+msgstr "SERVICIO AL CLIENTE"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_inheritance
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Cancellation"
+msgstr "Cancelación"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_address_page model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_checkout_page
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_confirmation_page model_terms:theme.ir.ui.view,arch:theme_inventive.payment_page
+msgid "Cart"
+msgstr "Carrito"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "Catalog price: High to Low"
+msgstr "Precio en Catálogo: mayor a menor"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "Catalog price: Low to High"
+msgstr "Precio en Catálogo: menor a mayor"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_product_4
+msgid "Catchy Headline"
+msgstr "Titular Pegadizo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_address_page model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_checkout_page
+msgid "Checkout"
+msgstr "Revisa"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Choose The Theme Colors"
+msgstr "Elija los colores del tema"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Choose Theme Footers"
+msgstr "Elija pies de página temáticos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Choose Theme Headers"
+msgstr "Elegir encabezados de tema"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Choose a pattern"
+msgstr "Elige un patrón"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Choose an image"
+msgstr "Elige una imagen"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Choose your fonts"
+msgstr "Elige tus fuentes"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Choose your layout"
+msgstr "Elige tu diseño"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "City"
+msgstr "Ciudad"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_website_sale_products_attributes
+msgid "Clear All"
+msgstr "Limpiar todo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_1 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_3
+msgid "Clever Slogan"
+msgstr "Lema Inteligente"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "Click <i>'New'</i> in the top-right corner to create your first product."
+msgstr "Haga clic en <i> \"Nuevo\" </i> en la esquina superior derecha para crear su primer producto."
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.wizard_feature_warning_form_view model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_2
+msgid "Collection 1"
+msgstr "Colección 1"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_2
+msgid "Collection 2"
+msgstr "Colección 2"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_2
+msgid "Collection 3"
+msgstr "Colección 3"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_5
+msgid "Collections"
+msgstr "Colecciones"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Colors"
+msgstr "Colores"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Company Name"
+msgstr "Nombre de la Empresa"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_footer_copyright
+msgid "Company name"
+msgstr "Nombre de la empresa"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "Company team"
+msgstr "Equipo de la empresa"
+
+#. module: theme_inventive
+#. openerp-web
+#: code:addons/theme_inventive/static/src/xml/theme_inventive.xml:0 model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_dynamic_tab_snippet_products
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_item_as_extra_template model_terms:theme.ir.ui.view,arch:theme_inventive.product_add_to_compare
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit
+#, python-format
+msgid "Compare"
+msgstr "Comparar"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_icons
+msgid ""
+"Comparison List\n"
+"                            <sup class=\"product_comp_quantity o_animate_blink badge badge-primary\"/>"
+msgstr ""
+"Lista comparativa\n"
+"                            <sup class=\"product_comp_quantity o_animate_blink badge badge-primary\"/>"
+
+#. module: theme_inventive
+#: model:ir.ui.menu,name:theme_inventive.theme_inventive_congiguration_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Configure the Product Filters Display mode."
+msgstr "Configure el modo de visualización de filtros del producto."
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Configure the Product Rating Display mode."
+msgstr "Configure el modo de visualización de la calificación del producto."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid ""
+"Confirm\n"
+"                                        <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"Confirmar\n"
+"                                        <span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit
+msgid "Confirm <i class=\"fa fa-arrow-right\"/>"
+msgstr "Confirmar <i class=\"fa fa-arrow-right\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_sign_fields
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_confirmation_page
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_contactus_page model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Contact Us"
+msgstr "Contáctanos"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_contactus_page
+msgid "Contact us"
+msgstr "Contáctanos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_7
+msgid "Cool Products"
+msgstr "Productos geniales"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "Coulmn Style 1"
+msgstr "Estilo de columna 1"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "Coulmn Style 2"
+msgstr "Estilo de columna 2"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "Coulmn Style 3"
+msgstr "Estilo de columna 3"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "Coulmn Style 4"
+msgstr "Estilo de columna 4"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "Coulmn Style 5"
+msgstr "Estilo de columna 5"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Country"
+msgstr "País"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Country..."
+msgstr "País..."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Create An Account"
+msgstr "Crea una cuenta"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__create_uid model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__create_date model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Database"
+msgstr "Base de datos"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__product_filter_views__default
+#: model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__product_filter_views__default
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__product_filter_views__default
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__product_filter_views__default
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__product_filter_views__default model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Default"
+msgstr "Defecto"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Default Max Price"
+msgstr "Precio máximo predeterminado"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Default Min Price"
+msgstr "Precio mínimo predeterminado"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options
+msgid "Design 1"
+msgstr "Diseño 1"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options
+msgid "Design 2"
+msgstr "Diseño 2"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options
+msgid "Design 3"
+msgstr "Diseño 3"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options
+msgid "Design 4"
+msgstr "Diseño 4"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options
+msgid "Design 5"
+msgstr "Diseño 5"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_1_options model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_gallery_type_2_options
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippets_interactive_display_options
+msgid "Design 6"
+msgstr "Diseño 6"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid "Designation"
+msgstr "Designacion"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_full_image_block model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_full_image_paralex
+msgid "Discover More"
+msgstr "Descubrir más"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_product_3
+msgid ""
+"Discover more\n"
+"                                <i class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"Descubrir más\n"
+"                                <i class=\"fa fa-long-arrow-right\"/>"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__display_name model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Display the price range filter on website"
+msgstr "Mostrar el filtro de rango de precios en el sitio web"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__products_rating__hidden model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__products_rating__hidden
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__products_rating__hidden
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__products_rating__hidden
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__products_rating__hidden
+msgid "Do not show Ratings at all."
+msgstr "No mostrar calificaciones en absoluto."
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__product_filter_views__dropdown
+#: model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__product_filter_views__dropdown
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__product_filter_views__dropdown
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__product_filter_views__dropdown
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__product_filter_views__dropdown
+msgid "Dropdown"
+msgstr "Desplegable"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid "Dummy Name"
+msgstr "Nombre ficticio"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Email"
+msgstr "Email"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_sign_fields model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit
+msgid "Email Id"
+msgstr "Id del Email"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__enable_lazy_loading model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__enable_lazy_loading
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__enable_lazy_loading model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__enable_lazy_loading
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__enable_lazy_loading
+msgid "Enable Lazy Loading"
+msgstr "Habilitar carga diferida"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Enable/Disable the Product Accessories view button of Website Grid View Product."
+msgstr "Habilite / deshabilite el botón de vista Accesorios del producto de la cuadrícula del sitio web Ver producto."
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Enable/Disable the Product Alternatives view button of Website Grid View Product."
+msgstr "Habilitar / deshabilitar el botón de vista Alternativas de producto de la cuadrícula de sitio web Ver producto."
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Enable/Disable the Product Quick View button of Website Grid View Product."
+msgstr "Habilitar / deshabilitar el botón Vista rápida del producto de la cuadrícula del sitio web Ver producto."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_1 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_3
+msgid "Explore More"
+msgstr "Explora más"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_4
+msgid "Explore Now"
+msgstr "Explore ahora"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "FAQ"
+msgstr "FAQ"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_featured_products_2
+msgid "FEATURED"
+msgstr "DESTACADOS"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_follow_icons
+msgid "FOLLOW INVENTIVE :"
+msgstr "SIGA LA INVENTIVE:"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Fade In"
+msgstr "Fundirse"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Fade In Up Big"
+msgstr "Fundido en grande"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Fade Out"
+msgstr "Desaparecer"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Fade Out Up Big"
+msgstr "Desaparecer en Grande"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "False"
+msgstr "Falso"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__featured_product_type
+msgid "Feature Products Type"
+msgstr "Tipo de productos de características"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__featured_product_type__featured model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_featured_products_1
+msgid "Featured"
+msgstr "Destacados"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view
+msgid "Featured Product Selection"
+msgstr "Selección de productos destacados"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "Featured Product Selection for Product-tab snippet"
+msgstr "Selección de producto destacado para fragmento de pestaña de producto"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__products model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__dynamic_snippet__featured
+msgid "Featured Products"
+msgstr "Productos Destacados"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view
+msgid "Featured Products will we selected automatically on the basis of Website Sequence of Product."
+msgstr "Los productos destacados se seleccionarán automáticamente en función de la secuencia de productos del sitio web."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Flash"
+msgstr "Destello"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Fonts"
+msgstr "Fuentes"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_6
+msgid "Football"
+msgstr "Football"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Footers"
+msgstr "Pies de página"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "Founder and chief visionary, Tony is the driving force behind Company. He loves to keep his hands full by participating in the development of the software, marketing and the Customer Experience strategies."
+msgstr "Fundador y Líder visionario, Tony es la fuerza impulsora detrás de la Compañía. Le encanta mantener sus manos llenas participando en el desarrollo del software, el marketing y las estrategias de Experiencia del Cliente."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Full"
+msgstr "Completo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_3
+msgid "GRAB IT NOW!!"
+msgstr "¡¡AGARRARLO AHORA!!"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_display
+msgid "Gear"
+msgstr "Engranaje"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_2
+msgid "Get"
+msgstr "Obtener"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_1
+msgid "Go For Shop Now"
+msgstr "Ir a comprar ahora"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "Grid View"
+msgstr "Vista en cuadrícula"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_search_view
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_interactive_display
+msgid ""
+"Happy\n"
+"                                    <span>XYZ</span>"
+msgstr ""
+"Contento\n"
+"                                    <span>XYZ</span>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Headers"
+msgstr "Encabezados"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_top_bar
+msgid "Hello"
+msgstr "Hola"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_3
+msgid "Hiking Bags"
+msgstr "Bolsas de senderismo"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_aboutus_page model_terms:ir.ui.view,arch_db:theme_inventive.inventive_contactus_page model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_inheritance
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit model_terms:theme.ir.ui.view,arch:theme_inventive.cart model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_address_page model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_checkout_page model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_confirmation_page
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.payment_page model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Home"
+msgstr "Inicio"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_1
+msgid "Hover Style #"
+msgstr "Estilo de desplazamiento #"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__id model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message__id
+msgid "ID"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "IRIS JOE, CTO"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "In Stock"
+msgstr "En stock"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_3
+msgid "Inventive"
+msgstr "Inventive"
+
+#. module: theme_inventive
+#: model:ir.model,name:theme_inventive.model_inventive_features model:ir.ui.menu,name:theme_inventive.inventive_feature_menu
+msgid "Inventive Features"
+msgstr "Características de Inventive"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_form_view model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_tree_view
+msgid "Inventive Mega Menu"
+msgstr "Mega Menú Inventive"
+
+#. module: theme_inventive
+#: model:ir.actions.act_window,name:theme_inventive.inventive_action_website_mega_menu
+msgid "Inventive Mega Menus"
+msgstr "Megas Menús de Inventive"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_form_view
+msgid "Inventive Mega Menus Settings"
+msgstr "Configuraciones de Mega Menús de Inventive"
+
+#. module: theme_inventive
+#: model:ir.ui.menu,name:theme_inventive.inventive_products_tab_snippet_menu
+msgid "Inventive Product Tabs"
+msgstr "Fichas de productos de Inventive"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid "Iris Joe"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "Iris, with her international experience, helps us easily understand the numbers and improves them. She is determined to drive success and delivers her professional acumen to bring Company at the next level."
+msgstr "Iris, con su experiencia internacional, nos ayuda a comprender fácilmente los números y los mejora. Está decidida a impulsar el éxito y ofrece su perspicacia profesional para llevar a la Compañía al siguiente nivel."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_newsletter
+msgid "JOIN OUR NEWSLETTER"
+msgstr "SUSCRÍBASE A NUESTRO BOLETÍN"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_1 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_2
+msgid "LATEST"
+msgstr "ÚLTIMO"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features____last_update model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__write_uid model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__write_date model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__tabs_product_type__latest
+msgid "Latest"
+msgstr "Último"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_blog_snippet model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_blog_snippet_2
+msgid "Latest Posts"
+msgstr "Ultimas Publicaciones"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "Latest Products will we selected automatically on the basis of Creation Date of Product."
+msgstr "Los últimos productos los seleccionaremos automáticamente en función de la fecha de creación del producto."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Layout"
+msgstr "Diseño"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__lazy_loading_options model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__lazy_loading_options
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__lazy_loading_options model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__lazy_loading_options
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__lazy_loading_options
+msgid "Lazy Loading Options"
+msgstr "Opciones de Carga Diferida"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__product_filter_views__side_bar
+#: model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__product_filter_views__side_bar
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__product_filter_views__side_bar
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__product_filter_views__side_bar
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__product_filter_views__side_bar
+msgid "Left Side bar"
+msgstr "Barra lateral izquierda"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__products_limit
+msgid "Limit"
+msgstr "Límite"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_2
+msgid "Limited Offer"
+msgstr "Oferta limitada"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "List View"
+msgstr "Vista de la lista"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_products_lazy_load_view_template
+msgid "Load More"
+msgstr "Carga más"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Load The Products on Shop page with following options."
+msgstr "Cargue los productos en la página de la tienda con las siguientes opciones."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Log In <i class=\"fa fa-arrow-right\"/>"
+msgstr "Iniciar sesión <i class=\"fa fa-arrow-right\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Log in as superuser"
+msgstr "Inicie sesión como superusuario"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_3
+msgid "Lorem Ipsum"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_4
+msgid "Lorem Ipsum is simply dummy text of the printing"
+msgstr "Lorem Ipsum es simplemente un texto ficticio de la impresión"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_news_letter
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr "Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_4
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n"
+"                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+msgstr ""
+"Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica.\n"
+"                            Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el 1500."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_5
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+msgstr "Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500,"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been\n"
+"                                                the industry's standard dummy text ever since the 1500s,"
+msgstr ""
+"Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, Lorem Ipsum es simplemente texto ficticio de "
+"la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500,"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_full_image_paralex
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and\n"
+"                                    scrambled it to make a type specimen book. It has survived not only five centuries,"
+msgstr ""
+"Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una "
+"galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos,"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_full_image_block
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and\n"
+"                            scrambled it to make a type specimen book. It has survived not only five centuries,"
+msgstr ""
+"Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una "
+"galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos,"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a "
+"type specimen book. when\n"
+"                                            an unknown printer took a galley of type and scrambled it to make a type specimen book. when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+msgstr ""
+"Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una "
+"galería tipográfica y la mezcló para hacer un libro de muestras. cuando una impresora desconocida tomó una galería tipográfica y la revolvió para hacer un libro de muestras tipo. cuando una impresora desconocida tomó una "
+"galería tipográfica y la revolvió para hacer un libro de muestras tipo."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+msgstr ""
+"Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una "
+"galería."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_bubble_description
+msgid ""
+"Lorem Ipsum is simply dummy. Lorem Ipsum is simply dummy\n"
+"                        Lorem Ipsum is simply dummy. Lorem Ipsum is simply dummy\n"
+"                        Lorem Ipsum is simply dummy. Lorem Ipsum is simply dummy\n"
+"                        Lorem Ipsum is simply dummy. Lorem Ipsum is simply dummy"
+msgstr ""
+"Lorem Ipsum es simplemente un modelo. Lorem Ipsum es simplemente un modelo\n"
+"                        Lorem Ipsum es simplemente tonto. Lorem Ipsum es simplemente un modelo\n"
+"                        Lorem Ipsum es simplemente tonto. Lorem Ipsum es simplemente  un modelo\n"
+"                        Lorem Ipsum es simplemente tonto. Lorem Ipsum es simplemente  un modelo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_1 model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_4
+msgid "Lorem Ipsum standard dummy"
+msgstr "Módelo estándar Lorem Ipsum"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "MICH STARK, COO"
+msgstr ""
+
+#. module: theme_inventive
+#: model:ir.ui.menu,name:theme_inventive.theme_website_mega_menu_item
+msgid "Mega Menus"
+msgstr "Mega Menús"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_3_content model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_4_content
+msgid "Men's"
+msgstr "Hombres"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_website_menu__mega_menu_icon
+msgid "Menu Icon"
+msgstr "Ícono de menú"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_6 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_7 model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_column_items
+msgid "Menu Item"
+msgstr "Opción del menú"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_7
+msgid "Menu category"
+msgstr "Categoría de menú"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team
+msgid "Mich Stark"
+msgstr "Mich Stark"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "Mich loves taking on challenges. With his multi-year experience as Commercial Director in the software industry, Mich has helped Company to get where it is today. Mich is among the best minds."
+msgstr "A Mich le encanta asumir desafíos. Con su experiencia de varios años como Director Comercial en la industria del software, Mich ha ayudado a la Compañía a llegar a donde está hoy. Mich está entre las mejores mentes."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_home_inherit
+msgid "My Profile"
+msgstr "Mi perfil"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_8
+msgid "NEW ARRIVALS"
+msgstr "RECIÉN LLEGADOS"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_featured_products_2
+msgid "NEW PRODUCTS"
+msgstr "NUEVOS PRODUCTOS"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "Name - A to Z"
+msgstr "Nombre - A a Z"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "Name - Z to A"
+msgstr "Nombre - Z a A"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_sign_fields
+msgid "Name e.g. John Doe"
+msgstr "Nombre p.e. John Doe"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template
+msgid "Navbar"
+msgstr "Barra de navegación"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_deal
+msgid "New Collection"
+msgstr "Nueva Colección"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__featured_product_type__new model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_featured_products_1
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "New Products"
+msgstr "Nuevos Productos"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view
+msgid "New Products will we selected automatically on the basis of Creation Date of Product."
+msgstr "Los nuevos productos se seleccionarán automáticamente en función de la fecha de creación del producto."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.carousel_common_elements model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid "Next"
+msgstr "Próximo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "No description found."
+msgstr "No se ha encontrado ninguna descripción."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "No product defined"
+msgstr "Ningún producto definido"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "No product defined in category \""
+msgstr "Ningún producto definido en la categoría \""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "No results"
+msgstr "No hay resultados"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "No results for \""
+msgstr "No hay resultados para \""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_mega_menu_options
+msgid "None"
+msgstr "Ninguno"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team
+msgid "OUR TEAM"
+msgstr "NUESTRO EQUIPO"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_product_3 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_2 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_3
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_mega_menu_4 model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_3_content model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_4_content
+msgid "Odoo • Image and Text"
+msgstr "Ligerito • Imagen y texto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_grip_view_2 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_2 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_3
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_6 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_7 model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid "Odoo • Text and Image"
+msgstr "Ligerito • Texto e imagen"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__lazy_loading_options__scroll
+#: model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__lazy_loading_options__scroll
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__lazy_loading_options__scroll
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__lazy_loading_options__scroll
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__lazy_loading_options__scroll
+msgid "On Scroll"
+msgstr "En desplazamiento"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shop_now
+msgid "One Nation. One Team."
+msgstr "Una nacion. Un equipo."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_banner_product_2
+msgid "Only for Today"
+msgstr "Solo por hoy"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_404_template
+msgid "Oops!!"
+msgstr "¡Uy!"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_icons
+msgid "Orders"
+msgstr "Pedidos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid "Our Clients Words"
+msgstr "Palabras de nuestros clientes"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid ""
+"Our products are designed for small to medium size companies willing to optimize\n"
+"                their performance."
+msgstr ""
+"Nuestros productos están diseñados para pequeñas y medianas empresas que desean optimizar\n"
+"                Su desempeño."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "Out of Stock"
+msgstr "Agotado"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "Over All Stats"
+msgstr "Sobre todas las Estadísticas"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_1 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_2
+msgid "POPULAR"
+msgstr "POPULAR"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_sign_fields model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_address_page model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_checkout_page model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_confirmation_page
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.payment_page
+msgid "Payment"
+msgstr "Pago"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Please Choose Image"
+msgstr "Por favor, elija imagen"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "Please Try After Removing applyied Filters."
+msgstr "Por favor intente después de eliminar los filtros aplicados."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_404_template
+msgid "Please click the below button to go back to the Home Page."
+msgstr "Haga clic en el botón a continuación para volver a la página de inicio."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Policies"
+msgstr "Políticas"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__tabs_product_type__sale
+msgid "Popular"
+msgstr "Popular"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "Popular Products"
+msgstr "Productos Populares"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "Popular Products will we selected automatically on the basis of Sale of that product ."
+msgstr "Los productos populares los seleccionaremos automáticamente en función de la venta de ese producto."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.carousel_common_elements model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_client_word
+msgid "Previous"
+msgstr "Previo"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Price Filter Settings"
+msgstr "Configuraciones de filtro de precios"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__price_range_step model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__price_range_step
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__price_range_step model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__price_range_step
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__price_range_step model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Price Range Step"
+msgstr "Paso de rango de precios"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Produc Lazy Loading"
+msgstr "Carga lenta del producto"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__product_accessories_view model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__product_accessories_view
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__product_accessories_view model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__product_accessories_view
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__product_accessories_view model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Product Accessories View"
+msgstr "Vista de accesorios del producto"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__product_alternatives_view model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__product_alternatives_view
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__product_alternatives_view
+#: model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__product_alternatives_view
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__product_alternatives_view
+msgid "Product Alternates View"
+msgstr "Vista alternativa del producto"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Product Alternatives View"
+msgstr "Vista de alternativas de producto"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_product_product__product_avg_rating model:ir.model.fields,field_description:theme_inventive.field_product_template__product_avg_rating
+msgid "Product Average Rating"
+msgstr "Valoración media del producto"
+
+#. module: theme_inventive
+#. openerp-web
+#: code:addons/theme_inventive/static/src/xml/theme_inventive.xml:0
+#, python-format
+msgid "Product Compare List"
+msgstr "Lista de Comparación de Productos"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__product_filter_views model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__product_filter_views
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__product_filter_views model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__product_filter_views
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__product_filter_views
+msgid "Product Filters Views"
+msgstr "Vistas de Filtros de Producto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_lines
+msgid "Product Image"
+msgstr "Imagen del Producto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_lines model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_7
+msgid "Product Name"
+msgstr "Nombre del Producto"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__product_quick_view model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__product_quick_view
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__product_quick_view model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__product_quick_view
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__product_quick_view model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Product Quick View"
+msgstr "Vista rápida del producto"
+
+#. module: theme_inventive
+#: model:ir.model,name:theme_inventive.model_product_template
+msgid "Product Template"
+msgstr "Plantilla del Producto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_product_nav_tabs_1
+msgid "Products"
+msgstr "Productos"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__dynamic_snippet__tabs
+msgid "Products Tabs"
+msgstr "Pestañas de productos"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.wizard_feature_warning_form_view
+msgid "Publish"
+msgstr "Publicar"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__publish_status
+msgid "Published"
+msgstr "Publicado"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_lines
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_dynamic_tab_snippet_products model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_item_as_extra_template
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_products_quick_view_btn model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit
+msgid "Quick View"
+msgstr "Vista rápida"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view
+msgid "Rated Products will we selected automatically on the basis of Website Ratings of Product ."
+msgstr "Los productos calificados se seleccionarán automáticamente en función de las clasificaciones del producto en el sitio web."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.latest_posts_2_template model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_1
+msgid "Read More"
+msgstr "Lee mas"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_icons
+msgid "Register"
+msgstr "Registrarse"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_products_item_inherit
+msgid "Remove one"
+msgstr "Eliminar uno"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_home_inherit
+msgid "Reset Password"
+msgstr "Restablecer la contraseña"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit
+msgid "Reset Your Password"
+msgstr "Restablecer su contraseña"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Return"
+msgstr "Return"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Round Black"
+msgstr "Negro redondo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Round White"
+msgstr "Blanco redondo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Rubber Band"
+msgstr "Banda elástica"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_search_template
+msgid "Search"
+msgstr "Buscar"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_search_view
+msgid "Search Menus"
+msgstr "Buscar menús"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_1_content model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_2_content
+msgid "Section Subtitle"
+msgstr "Subtítulo de sección"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_bubble_description
+msgid "See All Related Products"
+msgstr "Ver todos los productos relacionados"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_grip_view_2
+msgid "See More"
+msgstr "Ver más"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Select <i class=\"fa fa-database\" role=\"img\" aria-label=\"Database\" title=\"Database\"/>"
+msgstr "Seleccione<i class=\"fa fa-database\" role=\"img\" aria-label=\"Base de Datos\" title=\"Base de Datos\"/>"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "Select the All Products Manually"
+msgstr "Seleccione todos los productos manualmente"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view
+msgid "Select the Featured Products Manually"
+msgstr "Seleccione los productos destacados manualmente"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "Select the Latest Products Manually"
+msgstr "Seleccione los últimos productos manualmente"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view
+msgid "Select the New Products Manually"
+msgstr "Seleccione los nuevos productos manualmente"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "Select the Popular Products Manually"
+msgstr "Seleccione los productos populares manualmente"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view
+msgid "Select the Rated Products Manually"
+msgstr "Seleccione los productos calificados manualmente"
+
+#. module: theme_inventive
+#: model:ir.actions.act_window,name:theme_inventive.action_website_theme_configuration
+msgid "Settings"
+msgstr "Configuraciones"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Shipping"
+msgstr "Envío"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit
+msgid "Shop"
+msgstr "Tienda"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_category
+msgid "Shop Accessories"
+msgstr "Comprar Accesorios"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_3 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shop_now
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_shopping_display model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_4
+msgid "Shop Now"
+msgstr "Compra Ahora"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Shop Page Settings"
+msgstr "Configuración de la página de compras"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_product_4
+msgid "Shop now"
+msgstr "Compra ahora"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_dynamic_tab_snippet_products model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_item_as_extra_template
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_products_add_to_cart_inherit model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit
+msgid "Shopping cart"
+msgstr "Carrito de compras"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_website_menu__show_on_hover
+msgid "Show On Hover"
+msgstr "Mostrar en Flotar"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__products_rating__hide model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__products_rating__hide
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__products_rating__hide model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__products_rating__hide
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__products_rating__hide
+msgid "Show Only that have value greater then 0"
+msgstr "Mostrar solo los que tienen un valor mayor que 0"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__show_price_filter model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__show_price_filter
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__show_price_filter model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__show_price_filter
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__show_price_filter
+msgid "Show Price Filter"
+msgstr "Mostrar filtro de precios"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Show Price Range Filter"
+msgstr "Mostrar filtro de rango de precios"
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__advance_website_settings__products_rating__show model:ir.model.fields.selection,name:theme_inventive.selection__res_config_settings__products_rating__show
+#: model:ir.model.fields.selection,name:theme_inventive.selection__webkul_website_addons__products_rating__show model:ir.model.fields.selection,name:theme_inventive.selection__website_config_terms_settings__products_rating__show
+#: model:ir.model.fields.selection,name:theme_inventive.selection__website_daily_deals_conf__products_rating__show
+msgid "Show all the Ratings"
+msgstr "Mostrar todas las calificaciones"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Show on Hover"
+msgstr "Mostrar en Flotar"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__products_rating model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__products_rating
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__products_rating model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__products_rating
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__products_rating model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Show/Hide Product Ratings"
+msgstr "Mostrar / Ocultar valoraciones de los productos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_reset_pass_inherit model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "Sign In"
+msgstr "Iniciar Sesión"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_inheritance
+msgid "Sign Up"
+msgstr "Regístrate"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.auth_signup_inheritance
+msgid "Sign Up <i class=\"fa fa-arrow-right\"/>"
+msgstr "Regístrate <i class=\"fa fa-arrow-right\"/>"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_icons
+msgid "Sign in"
+msgstr "Iniciar sesión"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_icons
+msgid "Sign out"
+msgstr "Cerrar sesión"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Sitemap"
+msgstr "Mapa del sitio"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_4
+msgid "Slide Title"
+msgstr "Título de Diapositiva"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__slider_max_price model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__slider_max_price
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__slider_max_price model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__slider_max_price
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__slider_max_price
+msgid "Slider Max Price"
+msgstr "Precio Máximo de Diapositiva"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_advance_website_settings__slider_min_price model:ir.model.fields,field_description:theme_inventive.field_res_config_settings__slider_min_price
+#: model:ir.model.fields,field_description:theme_inventive.field_webkul_website_addons__slider_min_price model:ir.model.fields,field_description:theme_inventive.field_website_config_terms_settings__slider_min_price
+#: model:ir.model.fields,field_description:theme_inventive.field_website_daily_deals_conf__slider_min_price
+msgid "Slider Min Price"
+msgstr "Precio mínino de Diapositiva"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__dynamic_snippet
+msgid "Snippet Name"
+msgstr "Nombre de fragmento"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_product_template__sales_count
+msgid "Sold"
+msgstr "Vendido"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_8
+msgid "Some quick example text to build on the card title and make"
+msgstr "Un texto de ejemplo rápido para construir sobre el título de la tarjeta y hacer"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.product_attributes_body
+msgid "Specifications for"
+msgstr "Especificaciones para"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_gallery_type_3
+msgid "Sport Items"
+msgstr "Artículos deportivos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_6
+msgid "Sports"
+msgstr "Deportes"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_product_3
+msgid "Start with the customer – find out what they want and give it to them."
+msgstr "Comience con el cliente: descubra lo que quiere y déselo."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "State / Province"
+msgstr "Estado / Provincia"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_stats
+msgid "Stats"
+msgstr "Estadísticas"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_1 model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_3
+msgid "Storytelling is powerful. It draws readers in and engages them."
+msgstr "La narración de cuentos es poderosa. Atrae a los lectores y los involucra."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Street"
+msgstr "Calle"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_1_content model_terms:theme.ir.ui.view,arch:theme_inventive.th_mega_menu_2_content
+msgid "Submenu"
+msgstr "Submenú"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_news_letter model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_newsletter
+msgid "Subscribe"
+msgstr "Suscribir"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_newsletter
+msgid "Subscribe to receive special offers and info about new products"
+msgstr "Suscríbase para recibir ofertas especiales e información sobre nuevos productos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "TONY FRED, CEO"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_featured_products_2
+msgid "TOP RATED"
+msgstr "LOS MÁS VALORADOS"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_inventive_features__tabs_product_type
+msgid "Tab Products Type"
+msgstr "Tipo de productos de pestaña"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "Table View"
+msgstr "Vista de tabla"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_6
+msgid "Tennis"
+msgstr "Tenis"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Terms &amp; Conditions"
+msgstr "Términos y condiciones"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonials
+msgid "Testimonials"
+msgstr "Testimonios"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_news_letter model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_newsletter
+msgid "Thanks"
+msgstr "Gracias"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_news_letter model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_newsletter
+msgid "Thanks for your subscription!"
+msgstr "Gracias por su suscripción!"
+
+#. module: theme_inventive
+#: model:ir.ui.menu,name:theme_inventive.theme_inventive_website_menu model_terms:ir.ui.view,arch_db:theme_inventive.inventive_res_config_settings_view_form
+msgid "Theme Inventive"
+msgstr "Tema inventive"
+
+#. module: theme_inventive
+#: model:ir.model,name:theme_inventive.model_theme_utils
+msgid "Theme Utils"
+msgstr "Herramientas del tema"
+
+#. module: theme_inventive
+#: model:ir.model.fields,help:theme_inventive.field_inventive_features__products_limit
+msgid "There should be a limit that how may products will be visible on website"
+msgstr "Debe haber un límite de cómo pueden verse los productos en el sitio web"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_404_template
+msgid "This page does not exist, but you can create it as you are administrator of this site."
+msgstr "Esta página no existe, pero puede crearla como administrador de este sitio."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_featured_products_dynamic_1 model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_featured_products_dynamic_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_products_item_inherit
+msgid "This product is unpublished."
+msgstr "Este producto no está publicado."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_customize_options_template model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_8
+msgid "Title"
+msgstr "Título"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_company_team
+msgid "Tony Fred"
+msgstr ""
+
+#. module: theme_inventive
+#: model:ir.model.fields.selection,name:theme_inventive.selection__inventive_features__featured_product_type__rated model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_featured_products_1
+msgid "Top Rated"
+msgstr "Los más valorados"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_product_sort_by_template
+msgid "Top Rated Products"
+msgstr "Productos mejor calificados"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_lines
+msgid "Total Price"
+msgstr "Precio total"
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_product_product__total_start_rating_count model:ir.model.fields,field_description:theme_inventive.field_product_template__total_start_rating_count
+msgid "Total Start Rating Count"
+msgstr "Recuento total de clasificación de inicio"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Track Order"
+msgstr "Orden de pista"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid "Trainer"
+msgstr "Entrenador"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "True"
+msgstr "Cierto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_lines
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_featured_products_dynamic_1 model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_featured_products_dynamic_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.th_products_item_inherit
+msgid "Unpublished"
+msgstr "Inédito"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_owl_carousel_snippet_4
+msgid ""
+"Use this snippet to presents your content in a slideshow-like format.<br/>\n"
+"                                            Don't write about products or services here, write about solutions."
+msgstr ""
+"Use este fragmento para presentar su contenido en un formato de presentación de diapositivas. <br/>\n"
+"                                            No escriba sobre productos o servicios aquí, escriba sobre soluciones."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "VAT Number"
+msgstr "Número VAT"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover
+msgid "View Cart ("
+msgstr "Ver carrito ("
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_8
+msgid "View all"
+msgstr "Ver todo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_interactive_display
+msgid "View more"
+msgstr "Ver más"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_grid_view_7
+msgid "Visit"
+msgstr "Visitar"
+
+#. module: theme_inventive
+#. openerp-web
+#: code:addons/theme_inventive/static/src/xml/theme_inventive.xml:0
+#, python-format
+msgid "Warning"
+msgstr "Alerta"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's\n"
+"                life through disruptive products. We build great products to solve your\n"
+"                business problems."
+msgstr "Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos disruptivos. Creamos excelentes productos para resolver sus problemas comerciales."
+
+#. module: theme_inventive
+#: model:ir.model,name:theme_inventive.model_website
+msgid "Website"
+msgstr "Sitio Web"
+
+#. module: theme_inventive
+#: model:ir.model,name:theme_inventive.model_website_menu
+msgid "Website Menu"
+msgstr "Menú del Sitio Web"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_text_block
+msgid "Welcom To Inventive"
+msgstr "Bienvenido a Inventive"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_common_colums
+msgid "Who We Are"
+msgstr "Quienes somos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns model_terms:theme.ir.ui.view,arch:theme_inventive.rd_website_sale_wishlist_inherit
+msgid "Wishlist"
+msgstr "Lista de deseos"
+
+#. module: theme_inventive
+#: model:ir.model,name:theme_inventive.model_wizard_feature_message
+msgid "Wizard that show warning if user try to publish redazzled feature"
+msgstr "Asistente que muestra advertencia si el usuario intenta publicar una característica deslumbrante"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_interactive_display
+msgid "XYZ is a tiny-winged bird."
+msgstr "XYZ es un pájaro de alas pequeñas."
+
+#. module: theme_inventive
+#. openerp-web
+#: code:addons/theme_inventive/static/src/xml/theme_inventive.xml:0
+#, python-format
+msgid "You can compare max 4 products."
+msgstr "Puede comparar un máximo de 4 productos."
+
+#. module: theme_inventive
+#: model:ir.model.constraint,message:theme_inventive.constraint_inventive_features_f_type_unique
+msgid "You can not have two features with same Feature Products type !"
+msgstr "¡No puede tener dos características con el mismo tipo de Característica del Productos!"
+
+#. module: theme_inventive
+#: model:ir.model.constraint,message:theme_inventive.constraint_inventive_features_t_type_unique
+msgid "You can not have two features with same Tab Products type  !"
+msgstr "No puede tener dos características con el mismo tipo de Productos de pestaña!"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover
+msgid "You have"
+msgstr "Tienes"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_middle_btns
+msgid "Your Cart"
+msgstr "Su carrito"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Your Contact Details"
+msgstr "Tus detalles de contacto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_portal_page model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Your Details"
+msgstr "Tus detalles"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_home_inherit
+msgid "Your Documents"
+msgstr "Sus documentos"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Your Name"
+msgstr "Tu nombre"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_full_image_block model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_full_image_paralex
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_page_title_paralex
+msgid "Your Site Title"
+msgstr "El título de su sitio"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_product_3
+msgid ""
+"Your personal reflection\n"
+"                            <br/>To be successful your content needs to be useful to your readers."
+msgstr ""
+"Tu reflexión personal\n"
+"                            <br/>Para tener éxito, su contenido debe ser útil para sus lectores."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "Zip / Postal Code"
+msgstr "Código postal"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Zoom In"
+msgstr "Acercarse"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "Zoom Out"
+msgstr "Disminuir el zoom"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.payment_tokens_list_inherit
+msgid "and more"
+msgstr "y más"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_coupon_form
+msgid "code..."
+msgstr "código..."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_congratulations_page
+msgid "congrats"
+msgstr "felicidades"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "default"
+msgstr "defecto"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "flip"
+msgstr "voltear"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.theme_inventive_login
+msgid "forget password ?"
+msgstr "contraseña olvidada ?"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_1 model_terms:theme.ir.ui.view,arch:theme_inventive.header_10 model_terms:theme.ir.ui.view,arch:theme_inventive.header_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_3 model_terms:theme.ir.ui.view,arch:theme_inventive.header_4 model_terms:theme.ir.ui.view,arch:theme_inventive.header_5
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_6 model_terms:theme.ir.ui.view,arch:theme_inventive.header_7 model_terms:theme.ir.ui.view,arch:theme_inventive.header_8
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_9 model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_search_for_header
+msgid "header_search_bar"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_interactive_display
+msgid "img10"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited
+msgid "in category \""
+msgstr "en la categoria \""
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_features_form_view model_terms:ir.ui.view,arch_db:theme_inventive.inventive_products_tabs_form_view
+msgid "inventive Feature"
+msgstr "característica inventiva"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.wizard_feature_warning_form_view
+msgid "inventive Feature Warning"
+msgstr "advertencia de característica inventive"
+
+#. module: theme_inventive
+#: model:ir.actions.act_window,name:theme_inventive.th_inventive_featured_action
+msgid "inventive feature"
+msgstr "característica inventiva"
+
+#. module: theme_inventive
+#: model:ir.actions.act_window,name:theme_inventive.th_inventive_product_tabs_action
+msgid "inventive product tabs"
+msgstr "fichas de producto inventivo"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover
+msgid "item(s) in your cart"
+msgstr "artículo(s) en tu carro de compras"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.cart_popover
+msgid "items)"
+msgstr "artículos)"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_testimonial_carousel
+msgid "john Doe"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_bubble_description model_terms:theme.ir.ui.view,arch:theme_inventive.xtremo_grip_view_1
+msgid "left image"
+msgstr "imagen izquierda"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "lightSpeedIn"
+msgstr "velocidad de la luz en"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "lightSpeedOut"
+msgstr ""
+
+#. module: theme_inventive
+#: model:ir.model.fields,field_description:theme_inventive.field_wizard_feature_message__msg
+msgid "message"
+msgstr "mensaje"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_1 model_terms:theme.ir.ui.view,arch:theme_inventive.header_10 model_terms:theme.ir.ui.view,arch:theme_inventive.header_2
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_3 model_terms:theme.ir.ui.view,arch:theme_inventive.header_4 model_terms:theme.ir.ui.view,arch:theme_inventive.header_5
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_6 model_terms:theme.ir.ui.view,arch:theme_inventive.header_7 model_terms:theme.ir.ui.view,arch:theme_inventive.header_8
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.header_9
+msgid "mobile_search_bar"
+msgstr ""
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_search_view
+msgid "name"
+msgstr "nombre"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.in_website_sale_products_inherited model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_product_inherit_2
+msgid "search-error"
+msgstr "error de búsqueda"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.portal_my_details_inherit
+msgid "select..."
+msgstr "seleccione..."
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "slideInRight"
+msgstr "diapositiva hacia la derecha"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "slideInUpLeft"
+msgstr "diapositiva hacia arriba a la izquierda"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "slideOutLeft"
+msgstr "diapositiva hacia la izquierda"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "slideOutRight"
+msgstr "diapositiva hacia la derecha"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_snippet_carousel_options
+msgid "swing"
+msgstr "columpio"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.inventive_thanks_page
+msgid "thankyou"
+msgstr "gracias"
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_search_view
+msgid "url"
+msgstr "url"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.latest_posts_2_template
+msgid "visits("
+msgstr "visitas ("
+
+#. module: theme_inventive
+#: model_terms:ir.ui.view,arch_db:theme_inventive.inventive_mega_menu_search_view
+msgid "website"
+msgstr "sitio web"
+
+#. module: theme_inventive
+#: model_terms:theme.ir.ui.view,arch:theme_inventive.footer_news_letter model_terms:theme.ir.ui.view,arch:theme_inventive.s_inventive_banner_newsletter
+msgid "your email..."
+msgstr "tu correo electrónico..."
