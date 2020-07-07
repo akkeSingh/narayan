@@ -8,6 +8,8 @@
 }
 
 #products_grid .o_wsale_products_grid_table_wrapper{
+    display:flex;
+    flex-wrap: wrap;
     margin: 0;
 }
 #products_grid,.four_column_view{
