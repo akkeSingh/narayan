@@ -1,6 +1,6 @@
 {
-    "name": "Instagram as Progressive Web App",
-    "short_name": "PWAGram",
+    "name": "Narayan as Progressive Web App",
+    "short_name": "Narayan",
     "icons": [
       {
         "src": "/theme_inventive/static/src/images/icons/app-icon-48x48.png",
@@ -42,9 +42,9 @@
     "scope": ".",
     "display": "standalone",
     "orientation": "portrait-primary",
-    "background_color": "#fff",
-    "theme_color": "#3f51b5",
-    "description": "A simple Instagram Clone, implementing a lot of PWA love.",
+    "background_color": "#feb200",
+    "theme_color": "#feb200",
+    "description": "A simple Inventive Clone, implementing a lot of PWA love.",
     "dir": "ltr",
     "lang": "en-US"
   }
