@@ -31,14 +31,14 @@
                 </div>
             </div>
             <t t-call="website_sale.product_price"/>
-            <div class="th_product_stock pt8 pb8">
+            <!-- <div class="th_product_stock pt8 pb8">
                 <span t-if="product.sudo().qty_available" class="qty_available">
                     <span t-esc="int(product.sudo().qty_available)"/> In Stock
                 </span>
                 <span t-else="" class="no qty_available ">
                     Out of Stock
                 </span>
-            </div>
+            </div> -->
             <div class="th_product_desc">
                 <p t-field="product.description_sale"/>
             </div>
