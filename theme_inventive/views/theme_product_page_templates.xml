@@ -49,14 +49,14 @@
             <div id="inventive_product_tabs" class="row">
                 <div class="col-12 nav_tabs_1">
                     <ul class="nav nav-tabs " role="tablist">
-                        <li id="p_detail_tab" role="presentation" class="nav-item d-none">
+                        <li id="p_detail_tab" role="presentation" class="nav-item">
                             <a class="nav-link active" href="#wk_product_details" aria-controls="desc" role="tab" data-toggle="tab">
                                 <span class="d-none d-md-inline">ITEM </span>
                                 DETAILS
                             </a>
                         </li>
                         <li id="p_description_tab" role="presentation" class="nav-item">
-                            <a class="nav-link active" href="#wk_product_description" aria-controls="features" role="tab" data-toggle="tab">
+                            <a class="nav-link" href="#wk_product_description" aria-controls="features" role="tab" data-toggle="tab">
                                 <span class="d-none d-md-inline">PRODUCT </span>
                                 DESCRIPTION
                             </a>
@@ -86,7 +86,7 @@
                         </div>
                         <div role="tabpanel" class="tab-pane fade active show" id="wk_product_details">
                             <div class="container" id="inventive_p_full_spec">
-                                <p t-field="product.description_sale"/>
+                                <p t-field="product.description_sale" class="text-muted mt-3" placeholder="A short description that will also appear on documents."/>
                             </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="wk_product_review">
