@@ -12,16 +12,10 @@ odoo.define("theme_inventive.product_page_js", function(require) {
         //......Replacing the rating.............................
         var $source_rating = $("#wrap .o_shop_discussion_rating");
         var $target_rating = $("#wrap .o_shop_inventive_discussion_rating")
-        // var $source_detail = $("#product_full_spec");
-        // var $target_detail = $("#inventive_p_full_spec");
         if ($source_rating.length>0){
             $target_rating.replaceWith($source_rating);
             $("#p_review_tab").removeClass("d-none");
         }
-        // if($source_detail.length>0){
-        //     $source_detail.removeClass("d-none");
-        //     $target_detail.replaceWith($source_detail);
-        // }
         $('#product_details .rating_count a').on('click', function (e) {
           $('#inventive_product_tabs .nav-tabs a[href="#wk_product_review"]').tab('show');
         });
@@ -105,8 +99,8 @@ odoo.define("theme_inventive.product_page_js", function(require) {
         },
         _onChangeCombination:function(ev, $parent, combination){
             this._super.apply(this, arguments);
-            var target = $('#product_details .inventive_product_price .product_price')
-            var source = $('#product_details .js_product .product_price ')
+            var target = $('#product_details > .product_price')
+            var source = $('#product_details form .js_product .product_price')
             target.html(source.html());
         },
         _alternativeProductsOwlCarousel:function(ev){
