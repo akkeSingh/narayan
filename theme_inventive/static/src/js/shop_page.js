@@ -113,10 +113,10 @@ odoo.define('theme_inventive.shop_page_js', function(require) {
             } else {
                 $(".o_wsale_products_main_row").css("margin-left", "0px");
                 this.$products_grid_before.addClass("default")
-                this.$el.addClass("d-none");
-
+                if (window.window.innerWidth < 1200) {
+                    this.$el.addClass("d-none");
+                }
             }
-            this.$products_grid_before.removeClass("d-none");
             document.querySelectorAll('#wsale_products_attributes_collapse .nav-pills .collapse').forEach(element=>{
               th_scrollbar(element);
             });

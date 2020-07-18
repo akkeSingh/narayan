@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2018-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<!-- License URL : https://store.webkul.com/license.html/ -->
+
+<odoo>
+	<template id="firebase_integration_sdk_assets_frontend" inherit_id="website.assets_frontend" name="Firebase SDK" priority="1"> 
+		<xpath expr="." position="inside">
+			<!-- The core Firebase JS SDK is always required and must be listed first -->
+			<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+			<!-- TODO: Add SDKs for Firebase products that you want to use
+				https://firebase.google.com/docs/web/setup#available-libraries -->
+			<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+			<script>
+				//Your web app's Firebase configuration
+				var firebaseConfig = {
+					apiKey: "AIzaSyBMLLc4lOasOhP68CKMBcdp3wREx_FQpxs",
+					authDomain: "authsignup-5c714.firebaseapp.com",
+					databaseURL: "https://authsignup-5c714.firebaseio.com",
+					projectId: "authsignup-5c714",
+					storageBucket: "authsignup-5c714.appspot.com",
+					messagingSenderId: "456284851138",
+					appId: "1:456284851138:web:c67a3b6a89eb231b14e45b",
+					measurementId: "G-53WRC4YDX4"
+				};
+				// Initialize Firebase
+				firebase.initializeApp(firebaseConfig);
+			</script>
+			<script src="/firebase_auth/static/src/js/firebase_auth.js" type="text/javascript"></script>
+		</xpath>
+	</template>
+</odoo>
