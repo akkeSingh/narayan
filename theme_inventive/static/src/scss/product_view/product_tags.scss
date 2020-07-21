@@ -14,7 +14,7 @@
 .ribbon-wrapper,.product_tag_main_div{
     .product_tag{
         display: inline-block;
-        transform: rotate(0deg);
+        transform: rotate(45deg);
         font-weight: normal;
         font-size: 12px;
         line-height: 1;
@@ -28,13 +28,13 @@
         justify-content: center;
 
         &.style_1{
-            background-color: #00cb7c;
+            background-color: rgba(0, 0, 0, 0.5);
             top: 15px;
             left: 15px;
             right: unset;
             bottom: unset;
             &:active{
-              background-color: #00cb7c;
+              background-color: rgba(0, 0, 0, 0.5);
             }
             &::before{
                 content: "";
