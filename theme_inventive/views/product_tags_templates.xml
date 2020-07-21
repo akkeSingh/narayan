@@ -20,10 +20,14 @@
   <template id="product_page_product_tags_inherit" inherit_id="website_sale.shop_product_carousel" name="Theme Inventive Product Tags Inherit">
       <xpath expr="//div[@id='o-carousel-product']//div[hasclass('carousel-outer')]" position="before">
         <div class="ribbon-wrapper" t-if="product.product_tag_id" t-att-style="'display:inline-block' if product.product_tag_id else ''">
-            <a role="button" t-attf-class="ribbon btn btn-danger product_tag #{product.product_tag_id.style}">
-                <i class="fa fa-tag mr4"></i>
-                <span class="text" t-field="product.product_tag_id"/>
-            </a>
+            <div class = 'col-md-7 col-xs-7'>
+                <a role="button" t-attf-class="ribbon btn btn-danger product_tag #{product.product_tag_id.style}">
+                    <i class="fa fa-tag mr4"></i>
+                    <span class="text" t-field="product.product_tag_id"/>
+                </a>
+            </div>
+            <div class = 'col-md-5 col-xs-5' style = 'background-color:rgba(0,0,0,0.5)'>
+            </div>
         </div>
       </xpath>
   </template>
